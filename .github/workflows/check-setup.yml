@@ -17,6 +17,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Only does something if you uploaded ema-scanner.zip to the repository instead of the folders.
+      - name: Unpack the scanner (needed only if you uploaded the .zip file)
+        run: |
+          python3 - <<'PY'
+          import glob, os, zipfile
+          for z in sorted(glob.glob("*.zip")):
+              with zipfile.ZipFile(z) as f:
+                  names = f.namelist()
+                  marker = next((n for n in names if n.endswith("scanner/__main__.py")), None)
+                  if marker is None:
+                      continue
+                  prefix = marker[: -len("scanner/__main__.py")]
+                  for name in names:
+                      rel = name[len(prefix):]
+                      if not name.startswith(prefix) or not rel or rel.endswith("/") or ".." in rel.split("/"):
+                          continue
+                      if rel.startswith(".github/") or (rel == "config.yaml" and os.path.exists(rel)):
+                          continue          # workflows stay as you pasted them; your own settings file always wins
+                      os.makedirs(os.path.dirname(rel) or ".", exist_ok=True)
+                      with open(rel, "wb") as out:
+                          out.write(f.read(name))
+              print("Unpacked", z)
+          PY
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
