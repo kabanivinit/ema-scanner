@@ -5,6 +5,14 @@
 #  Keep the spaces at the start of lines exactly as they are.
 # =====================================================================
 
+# WHERE THE PRICES COME FROM
+#   auto         = TradingView first, Yahoo Finance as the automatic backup   (recommended)
+#   tradingview  = TradingView only
+#   yahoo        = Yahoo Finance only (commodities then use global futures instead of MCX)
+# TradingView's free feed is unofficial and DELAYED about 15 minutes for NSE / US / MCX (crypto is live),
+# so alerts for those markets arrive roughly 15-20 minutes after a candle closes.
+data_source: auto
+
 ema:
   short: 10            # GREEN line
   long: 20             # RED line
@@ -16,7 +24,7 @@ alerts:
   directions: both            # both | bullish | bearish
   tradingview_links: true     # symbol names become clickable links to TradingView
   max_lines_per_message: 40   # long lists are split into several Telegram messages
-  min_data_coverage: 0.80     # if Yahoo returns fewer than 80% of symbols, the run is retried later
+  min_data_coverage: 0.80     # if the data feed returns fewer than 80% of symbols, the run is retried later
 
 # Times in alerts and reports are shown in this time zone
 display_timezone: "Asia/Kolkata"
@@ -50,11 +58,21 @@ universes:
 
   commodities:
     enabled: true
+    label: "Commodities (MCX)"
+    market: MCX
+    currency: "₹"
+    source: list
+    list: mcx
+    sources: [auto, tradingview]  # MCX prices exist on TradingView only
+
+  commodities_global:
+    enabled: true
     label: "Commodities (global proxy for MCX)"
     market: FUT
     currency: "$"
     source: list
-    list: commodities
+    list: commodities_global
+    sources: [yahoo]              # used only when data_source is yahoo
 
   sp500:
     enabled: true
@@ -72,34 +90,70 @@ universes:
     list: indian_indices
 
 # ---------------------------------------------------------------------
-# LISTS.  To add a symbol, copy one line and change symbol / name.
-# symbol = the Yahoo Finance code (search the stock on finance.yahoo.com)
-# tv     = the TradingView code used only for the clickable link (optional)
+# LISTS.  To add a symbol, copy one line and change symbol / name / tv.
+#   symbol   = our ID. For most lines it is the Yahoo Finance code (used for the Yahoo backup).
+#   tv       = the TradingView code (open the chart on tradingview.com and copy EXCHANGE:SYMBOL)
+#   base     = crypto only: the coin ticker if it differs from the symbol (e.g. UNI)
+#   optional = true -> never counted against data coverage (use when you are not sure the code exists)
+# Run "0 - Check Setup" after editing: it lists every code TradingView does not recognise.
 # ---------------------------------------------------------------------
 lists:
   indian_indices:
-    - {symbol: "^NSEI",       name: "Nifty 50",                tv: "NSE:NIFTY"}
-    - {symbol: "^NSEBANK",    name: "Nifty Bank",              tv: "NSE:BANKNIFTY"}
-    - {symbol: "^BSESN",      name: "Sensex",                  tv: "BSE:SENSEX"}
-    - {symbol: "^NSMIDCP",    name: "Nifty Next 50",           tv: "NSE:NIFTYJR"}
-    - {symbol: "^NSEMDCP50",  name: "Nifty Midcap 50",         tv: "NSE:NIFTYMIDCAP50"}
-    - {symbol: "^CRSLDX",     name: "Nifty 500",               tv: "NSE:CNX500"}
-    - {symbol: "^CNXIT",      name: "Nifty IT",                tv: "NSE:CNXIT"}
-    - {symbol: "^CNXAUTO",    name: "Nifty Auto",              tv: "NSE:CNXAUTO"}
-    - {symbol: "^CNXPHARMA",  name: "Nifty Pharma",            tv: "NSE:CNXPHARMA"}
-    - {symbol: "^CNXFMCG",    name: "Nifty FMCG",              tv: "NSE:CNXFMCG"}
-    - {symbol: "^CNXMETAL",   name: "Nifty Metal",             tv: "NSE:CNXMETAL"}
-    - {symbol: "^CNXREALTY",  name: "Nifty Realty",            tv: "NSE:CNXREALTY"}
-    - {symbol: "^CNXENERGY",  name: "Nifty Energy",            tv: "NSE:CNXENERGY"}
-    - {symbol: "^CNXINFRA",   name: "Nifty Infrastructure",    tv: "NSE:CNXINFRA"}
-    - {symbol: "^CNXPSUBANK", name: "Nifty PSU Bank",          tv: "NSE:CNXPSUBANK"}
-    - {symbol: "^CNXMEDIA",   name: "Nifty Media",             tv: "NSE:CNXMEDIA"}
+    - {symbol: "^NSEI",       name: "Nifty 50",                 tv: "NSE:NIFTY"}
+    - {symbol: "^NSEBANK",    name: "Nifty Bank",               tv: "NSE:BANKNIFTY"}
+    - {symbol: "^BSESN",      name: "Sensex",                   tv: "BSE:SENSEX"}
+    - {symbol: "^NSMIDCP",    name: "Nifty Next 50",            tv: "NSE:NIFTYJR"}
+    - {symbol: "^NSEMDCP50",  name: "Nifty Midcap 50",          tv: "NSE:NIFTYMIDCAP50"}
+    - {symbol: "^CRSLDX",     name: "Nifty 500",                tv: "NSE:CNX500"}
+    - {symbol: "^CNXIT",      name: "Nifty IT",                 tv: "NSE:CNXIT"}
+    - {symbol: "^CNXAUTO",    name: "Nifty Auto",               tv: "NSE:CNXAUTO"}
+    - {symbol: "^CNXPHARMA",  name: "Nifty Pharma",             tv: "NSE:CNXPHARMA"}
+    - {symbol: "^CNXFMCG",    name: "Nifty FMCG",               tv: "NSE:CNXFMCG"}
+    - {symbol: "^CNXMETAL",   name: "Nifty Metal",              tv: "NSE:CNXMETAL"}
+    - {symbol: "^CNXREALTY",  name: "Nifty Realty",             tv: "NSE:CNXREALTY"}
+    - {symbol: "^CNXENERGY",  name: "Nifty Energy",             tv: "NSE:CNXENERGY"}
+    - {symbol: "^CNXINFRA",   name: "Nifty Infrastructure",     tv: "NSE:CNXINFRA"}
+    - {symbol: "^CNXPSUBANK", name: "Nifty PSU Bank",           tv: "NSE:CNXPSUBANK"}
+    - {symbol: "^CNXMEDIA",   name: "Nifty Media",              tv: "NSE:CNXMEDIA"}
     - {symbol: "^CNXFIN",     name: "Nifty Financial Services", tv: "NSE:CNXFINANCE"}
-    - {symbol: "^CNXPSE",     name: "Nifty PSE",               tv: "NSE:CNXPSE"}
-    - {symbol: "^CNXCMDT",    name: "Nifty Commodities",       tv: "NSE:CNXCOMMODITIES"}
-    - {symbol: "^CNXSERVICE", name: "Nifty Services Sector",   tv: "NSE:CNXSERVICE"}
-    - {symbol: "^CNXMNC",     name: "Nifty MNC",               tv: "NSE:CNXMNC"}
+    - {symbol: "^CNXPSE",     name: "Nifty PSE",                tv: "NSE:CNXPSE"}
+    - {symbol: "^CNXCMDT",    name: "Nifty Commodities",        tv: "NSE:CNXCOMMODITIES"}
+    - {symbol: "^CNXSERVICE", name: "Nifty Services Sector",    tv: "NSE:CNXSERVICE"}
+    - {symbol: "^CNXMNC",     name: "Nifty MNC",                tv: "NSE:CNXMNC"}
+    # more indices (TradingView only; optional = no alarm if a code is wrong)
+    - {symbol: "NSE:CNX100",            name: "Nifty 100",              tv: "NSE:CNX100",            optional: true}
+    - {symbol: "NSE:CNX200",            name: "Nifty 200",              tv: "NSE:CNX200",            optional: true}
+    - {symbol: "NSE:CNXMIDCAP",         name: "Nifty Midcap 100",       tv: "NSE:CNXMIDCAP",         optional: true}
+    - {symbol: "NSE:CNXSMALLCAP",       name: "Nifty Smallcap 100",     tv: "NSE:CNXSMALLCAP",       optional: true}
+    - {symbol: "NSE:NIFTYMIDCAP150",    name: "Nifty Midcap 150",       tv: "NSE:NIFTYMIDCAP150",    optional: true}
+    - {symbol: "NSE:NIFTYSMLCAP250",    name: "Nifty Smallcap 250",     tv: "NSE:NIFTYSMLCAP250",    optional: true}
+    - {symbol: "NSE:NIFTYPVTBANK",      name: "Nifty Private Bank",     tv: "NSE:NIFTYPVTBANK",      optional: true}
+    - {symbol: "NSE:CNXCONSUMPTION",    name: "Nifty Consumption",      tv: "NSE:CNXCONSUMPTION",    optional: true}
+    - {symbol: "NSE:INDIAVIX",          name: "India VIX",              tv: "NSE:INDIAVIX",          optional: true}
 
+  # MCX continuous front-month contracts on TradingView ("1!" = nearest expiry).
+  mcx:
+    - {symbol: "MCX:GOLD1!",        name: "Gold",             tv: "MCX:GOLD1!"}
+    - {symbol: "MCX:GOLDM1!",       name: "Gold Mini",        tv: "MCX:GOLDM1!"}
+    - {symbol: "MCX:SILVER1!",      name: "Silver",           tv: "MCX:SILVER1!"}
+    - {symbol: "MCX:SILVERM1!",     name: "Silver Mini",      tv: "MCX:SILVERM1!"}
+    - {symbol: "MCX:SILVERMIC1!",   name: "Silver Micro",     tv: "MCX:SILVERMIC1!",   optional: true}
+    - {symbol: "MCX:CRUDEOIL1!",    name: "Crude Oil",        tv: "MCX:CRUDEOIL1!"}
+    - {symbol: "MCX:CRUDEOILM1!",   name: "Crude Oil Mini",   tv: "MCX:CRUDEOILM1!",   optional: true}
+    - {symbol: "MCX:NATURALGAS1!",  name: "Natural Gas",      tv: "MCX:NATURALGAS1!"}
+    - {symbol: "MCX:NATGASMINI1!",  name: "Natural Gas Mini", tv: "MCX:NATGASMINI1!",  optional: true}
+    - {symbol: "MCX:COPPER1!",      name: "Copper",           tv: "MCX:COPPER1!"}
+    - {symbol: "MCX:ZINC1!",        name: "Zinc",             tv: "MCX:ZINC1!"}
+    - {symbol: "MCX:ZINCMINI1!",    name: "Zinc Mini",        tv: "MCX:ZINCMINI1!",    optional: true}
+    - {symbol: "MCX:LEAD1!",        name: "Lead",             tv: "MCX:LEAD1!"}
+    - {symbol: "MCX:LEADMINI1!",    name: "Lead Mini",        tv: "MCX:LEADMINI1!",    optional: true}
+    - {symbol: "MCX:ALUMINIUM1!",   name: "Aluminium",        tv: "MCX:ALUMINIUM1!"}
+    - {symbol: "MCX:ALUMINI1!",     name: "Aluminium Mini",   tv: "MCX:ALUMINI1!",     optional: true}
+    - {symbol: "MCX:NICKEL1!",      name: "Nickel",           tv: "MCX:NICKEL1!"}
+    - {symbol: "MCX:MENTHAOIL1!",   name: "Mentha Oil",       tv: "MCX:MENTHAOIL1!",   optional: true}
+    - {symbol: "MCX:CPO1!",         name: "Crude Palm Oil",   tv: "MCX:CPO1!",         optional: true}
+
+  # Crypto: TradingView symbols are tried in this order: Binance USDT, Coinbase, Kraken, Bitstamp.
   crypto:
     - {symbol: "BTC-USD",   name: "Bitcoin"}
     - {symbol: "ETH-USD",   name: "Ethereum"}
@@ -144,15 +198,15 @@ lists:
     - {symbol: "CRV-USD",   name: "Curve DAO"}
     - {symbol: "COMP-USD",  name: "Compound"}
     - {symbol: "SNX-USD",   name: "Synthetix"}
-    - {symbol: "UNI7083-USD",  name: "Uniswap",   tv: "UNIUSD"}
-    - {symbol: "TON11419-USD", name: "Toncoin",   tv: "TONUSD"}
-    - {symbol: "APT21794-USD", name: "Aptos",     tv: "APTUSD"}
-    - {symbol: "SUI20947-USD", name: "Sui",       tv: "SUIUSD"}
-    - {symbol: "ARB11841-USD", name: "Arbitrum",  tv: "ARBUSD"}
+    - {symbol: "UNI7083-USD",  name: "Uniswap",   base: "UNI"}
+    - {symbol: "TON11419-USD", name: "Toncoin",   base: "TON"}
+    - {symbol: "APT21794-USD", name: "Aptos",     base: "APT"}
+    - {symbol: "SUI20947-USD", name: "Sui",       base: "SUI"}
+    - {symbol: "ARB11841-USD", name: "Arbitrum",  base: "ARB"}
 
-  # Global futures used as stand-ins for MCX (Yahoo has no MCX prices).
+  # Global futures used as stand-ins for MCX when data_source is yahoo (Yahoo has no MCX prices).
   # The link opens the MCX chart on TradingView.
-  commodities:
+  commodities_global:
     - {symbol: "GC=F",  name: "Gold (COMEX)",           tv: "MCX:GOLD1!"}
     - {symbol: "SI=F",  name: "Silver (COMEX)",         tv: "MCX:SILVER1!"}
     - {symbol: "HG=F",  name: "Copper (COMEX)",         tv: "MCX:COPPER1!"}
@@ -171,6 +225,17 @@ min_bars: 60                       # candles needed before a symbol is evaluated
 scan_last_bars: {15m: 3, 1h: 2, 4h: 2, 1d: 2, 1w: 2}      # catches crossovers if a run was late
 settle_minutes: {15m: 1, 1h: 2, 4h: 2, 1d: 15, 1w: 15}    # wait after a candle closes
 max_alert_age_minutes: {15m: 180, 1h: 600, 4h: 1500, 1d: 4320, 1w: 14400}  # never alert on older candles
+
+# How late each free data feed is. The scanner waits this long after a candle closes, so it never judges a
+# candle that is still being built inside the delayed feed. "0 - Check Setup" prints what TradingView reports.
+feed_delay_minutes:
+  tradingview: {NSE: 15, US: 15, MCX: 15, FUT: 15, CRYPTO: 0}
+  yahoo:       {NSE: 0,  US: 0,  MCX: 0,  FUT: 0,  CRYPTO: 0}
+
+tradingview:
+  batch_size: 25                   # symbols per connection
+  pause_seconds: 0.4               # rest between batches (be gentle with TradingView)
+  max_seconds: 900                 # TradingView may use at most this long in one run
 yahoo:
   batch_size: 50
   pause_seconds: 2.0
