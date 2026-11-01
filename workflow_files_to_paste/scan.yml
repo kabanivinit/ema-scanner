@@ -1,0 +1,59 @@
+name: "1 - EMA Scan (every 15 minutes)"
+
+on:
+  schedule:
+    # 3 minutes after every quarter-hour candle close (UTC clock)
+    - cron: "3,18,33,48 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: show alerts in this log instead of sending them to Telegram"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ema-scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install tools
+        run: pip install -r requirements.txt
+
+      - name: Restore the memory of alerts already sent
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            state
+            universe_cache
+          key: ema-state-${{ github.run_id }}
+          restore-keys: |
+            ema-state-
+
+      - name: Scan and send Telegram alerts
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m scanner scan ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Save the memory of alerts already sent
+        if: ${{ always() && inputs.dry_run != true }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            state
+            universe_cache
+          key: ema-state-${{ github.run_id }}-${{ github.run_attempt }}

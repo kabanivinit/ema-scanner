@@ -1,0 +1,41 @@
+//@version=6
+indicator("EMA Crossover (Short/Long)", shorttitle = "EMA Cross", overlay = true)
+
+// ─── Inputs ────────────────────────────────────────────────
+// Defaults changed to 10 (short, green) and 20 (long, red)
+shortLen   = input.int(10, "Short EMA Length", minval = 1, group = "EMA Settings")
+longLen    = input.int(20, "Long EMA Length",  minval = 1, group = "EMA Settings")
+src        = input.source(close, "Source", group = "EMA Settings")
+
+shortColor = input.color(color.new(#00C853, 0), "Short EMA Color (Green)", group = "Colors")
+longColor  = input.color(color.new(#FF1744, 0), "Long EMA Color (Red)",    group = "Colors")
+bullColor  = input.color(color.new(#00C853, 0), "Bullish Cross Marker", group = "Colors")
+bearColor  = input.color(color.new(#FF1744, 0), "Bearish Cross Marker", group = "Colors")
+
+showMarkers = input.bool(true, "Show Cross Markers", group = "Markers")
+
+// ─── EMA calculation ───────────────────────────────────────
+emaShort = ta.ema(src, shortLen)
+emaLong  = ta.ema(src, longLen)
+
+// ─── Crossover detection ───────────────────────────────────
+bullCross = ta.crossover(emaShort, emaLong)   // short EMA crosses above long EMA
+bearCross = ta.crossunder(emaShort, emaLong)  // short EMA crosses below long EMA
+
+// ─── Plots ─────────────────────────────────────────────────
+plot(emaShort, "Short EMA", color = shortColor, linewidth = 2)
+plot(emaLong,  "Long EMA",  color = longColor,  linewidth = 2)
+
+plotshape(showMarkers and bullCross, "Bullish Cross", style = shape.triangleup,
+     location = location.belowbar, color = bullColor, size = size.small, text = "Cross Up")
+
+plotshape(showMarkers and bearCross, "Bearish Cross", style = shape.triangledown,
+     location = location.abovebar, color = bearColor, size = size.small, text = "Cross Down")
+
+// ─── Alerts ────────────────────────────────────────────────
+// {{exchange}}, {{ticker}}, {{interval}}, {{close}} are filled in by TradingView.
+// Set the alert's trigger to "Once Per Bar Close" so it matches the Python scanner.
+alertcondition(bullCross, "Bullish EMA Cross",
+     "BULLISH: {{exchange}}:{{ticker}} {{interval}} - Short EMA crossed above Long EMA. Close {{close}}")
+alertcondition(bearCross, "Bearish EMA Cross",
+     "BEARISH: {{exchange}}:{{ticker}} {{interval}} - Short EMA crossed below Long EMA. Close {{close}}")

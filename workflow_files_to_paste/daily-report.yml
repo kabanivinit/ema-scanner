@@ -1,0 +1,68 @@
+name: "2 - Daily Report"
+
+on:
+  schedule:
+    # 11:40 UTC = 17:10 IST, after the Indian market close
+    - cron: "40 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ema-scanner
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install tools
+        run: pip install -r requirements.txt
+
+      - name: Restore the memory of alerts already sent
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            state
+            universe_cache
+          key: ema-state-${{ github.run_id }}
+          restore-keys: |
+            ema-state-
+
+      - name: Build the report and send it to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m scanner report
+
+      - name: Keep a copy of the report in the repository
+        if: ${{ always() }}
+        run: |
+          git config user.name "ema-scanner-bot"
+          git config user.email "ema-scanner-bot@users.noreply.github.com"
+          git add reports universe_cache
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "Daily report $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Save the memory of alerts already sent
+        if: ${{ always() }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            state
+            universe_cache
+          key: ema-state-${{ github.run_id }}-${{ github.run_attempt }}

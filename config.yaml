@@ -1,0 +1,179 @@
+# =====================================================================
+#  EMA CROSSOVER SCANNER - SETTINGS
+#  You can edit this file directly on GitHub (click the pencil icon).
+#  Lines starting with # are notes and are ignored.
+#  Keep the spaces at the start of lines exactly as they are.
+# =====================================================================
+
+ema:
+  short: 10            # GREEN line
+  long: 20             # RED line
+
+# Timeframes to watch. Delete a line to switch that timeframe off.
+timeframes: ["15m", "1h", "4h", "1d", "1w"]
+
+alerts:
+  directions: both            # both | bullish | bearish
+  tradingview_links: true     # symbol names become clickable links to TradingView
+  max_lines_per_message: 40   # long lists are split into several Telegram messages
+  min_data_coverage: 0.80     # if Yahoo returns fewer than 80% of symbols, the run is retried later
+
+# Times in alerts and reports are shown in this time zone
+display_timezone: "Asia/Kolkata"
+
+# ---------------------------------------------------------------------
+# WHAT TO SCAN.   enabled: false  switches a whole group off.
+# Add   timeframes: ["1h", "1d"]   under a group to scan only those for it.
+# ---------------------------------------------------------------------
+universes:
+  nifty500:
+    enabled: true
+    label: "Nifty 500"
+    market: NSE
+    currency: "₹"
+    source: nse_nifty500          # list is downloaded from NSE automatically
+
+  nasdaq100:
+    enabled: true
+    label: "Nasdaq 100"
+    market: US
+    currency: "$"
+    source: wiki_nasdaq100        # list is downloaded automatically
+
+  crypto:
+    enabled: true
+    label: "Crypto"
+    market: CRYPTO
+    currency: "$"
+    source: list
+    list: crypto
+
+  commodities:
+    enabled: true
+    label: "Commodities (global proxy for MCX)"
+    market: FUT
+    currency: "$"
+    source: list
+    list: commodities
+
+  sp500:
+    enabled: true
+    label: "S&P 500"
+    market: US
+    currency: "$"
+    source: wiki_sp500            # list is downloaded automatically
+
+  indian_indices:
+    enabled: true
+    label: "Indian Indices"
+    market: NSE
+    currency: ""
+    source: list
+    list: indian_indices
+
+# ---------------------------------------------------------------------
+# LISTS.  To add a symbol, copy one line and change symbol / name.
+# symbol = the Yahoo Finance code (search the stock on finance.yahoo.com)
+# tv     = the TradingView code used only for the clickable link (optional)
+# ---------------------------------------------------------------------
+lists:
+  indian_indices:
+    - {symbol: "^NSEI",       name: "Nifty 50",                tv: "NSE:NIFTY"}
+    - {symbol: "^NSEBANK",    name: "Nifty Bank",              tv: "NSE:BANKNIFTY"}
+    - {symbol: "^BSESN",      name: "Sensex",                  tv: "BSE:SENSEX"}
+    - {symbol: "^NSMIDCP",    name: "Nifty Next 50",           tv: "NSE:NIFTYJR"}
+    - {symbol: "^NSEMDCP50",  name: "Nifty Midcap 50",         tv: "NSE:NIFTYMIDCAP50"}
+    - {symbol: "^CRSLDX",     name: "Nifty 500",               tv: "NSE:CNX500"}
+    - {symbol: "^CNXIT",      name: "Nifty IT",                tv: "NSE:CNXIT"}
+    - {symbol: "^CNXAUTO",    name: "Nifty Auto",              tv: "NSE:CNXAUTO"}
+    - {symbol: "^CNXPHARMA",  name: "Nifty Pharma",            tv: "NSE:CNXPHARMA"}
+    - {symbol: "^CNXFMCG",    name: "Nifty FMCG",              tv: "NSE:CNXFMCG"}
+    - {symbol: "^CNXMETAL",   name: "Nifty Metal",             tv: "NSE:CNXMETAL"}
+    - {symbol: "^CNXREALTY",  name: "Nifty Realty",            tv: "NSE:CNXREALTY"}
+    - {symbol: "^CNXENERGY",  name: "Nifty Energy",            tv: "NSE:CNXENERGY"}
+    - {symbol: "^CNXINFRA",   name: "Nifty Infrastructure",    tv: "NSE:CNXINFRA"}
+    - {symbol: "^CNXPSUBANK", name: "Nifty PSU Bank",          tv: "NSE:CNXPSUBANK"}
+    - {symbol: "^CNXMEDIA",   name: "Nifty Media",             tv: "NSE:CNXMEDIA"}
+    - {symbol: "^CNXFIN",     name: "Nifty Financial Services", tv: "NSE:CNXFINANCE"}
+    - {symbol: "^CNXPSE",     name: "Nifty PSE",               tv: "NSE:CNXPSE"}
+    - {symbol: "^CNXCMDT",    name: "Nifty Commodities",       tv: "NSE:CNXCOMMODITIES"}
+    - {symbol: "^CNXSERVICE", name: "Nifty Services Sector",   tv: "NSE:CNXSERVICE"}
+    - {symbol: "^CNXMNC",     name: "Nifty MNC",               tv: "NSE:CNXMNC"}
+
+  crypto:
+    - {symbol: "BTC-USD",   name: "Bitcoin"}
+    - {symbol: "ETH-USD",   name: "Ethereum"}
+    - {symbol: "XRP-USD",   name: "XRP"}
+    - {symbol: "BNB-USD",   name: "BNB"}
+    - {symbol: "SOL-USD",   name: "Solana"}
+    - {symbol: "DOGE-USD",  name: "Dogecoin"}
+    - {symbol: "TRX-USD",   name: "TRON"}
+    - {symbol: "ADA-USD",   name: "Cardano"}
+    - {symbol: "AVAX-USD",  name: "Avalanche"}
+    - {symbol: "LINK-USD",  name: "Chainlink"}
+    - {symbol: "XLM-USD",   name: "Stellar"}
+    - {symbol: "BCH-USD",   name: "Bitcoin Cash"}
+    - {symbol: "LTC-USD",   name: "Litecoin"}
+    - {symbol: "DOT-USD",   name: "Polkadot"}
+    - {symbol: "SHIB-USD",  name: "Shiba Inu"}
+    - {symbol: "HBAR-USD",  name: "Hedera"}
+    - {symbol: "ETC-USD",   name: "Ethereum Classic"}
+    - {symbol: "XMR-USD",   name: "Monero"}
+    - {symbol: "ATOM-USD",  name: "Cosmos"}
+    - {symbol: "NEAR-USD",  name: "NEAR Protocol"}
+    - {symbol: "ICP-USD",   name: "Internet Computer"}
+    - {symbol: "FIL-USD",   name: "Filecoin"}
+    - {symbol: "VET-USD",   name: "VeChain"}
+    - {symbol: "ALGO-USD",  name: "Algorand"}
+    - {symbol: "AAVE-USD",  name: "Aave"}
+    - {symbol: "MKR-USD",   name: "Maker"}
+    - {symbol: "EGLD-USD",  name: "MultiversX"}
+    - {symbol: "SAND-USD",  name: "The Sandbox"}
+    - {symbol: "MANA-USD",  name: "Decentraland"}
+    - {symbol: "AXS-USD",   name: "Axie Infinity"}
+    - {symbol: "THETA-USD", name: "Theta Network"}
+    - {symbol: "XTZ-USD",   name: "Tezos"}
+    - {symbol: "EOS-USD",   name: "EOS"}
+    - {symbol: "FLOW-USD",  name: "Flow"}
+    - {symbol: "CHZ-USD",   name: "Chiliz"}
+    - {symbol: "ZEC-USD",   name: "Zcash"}
+    - {symbol: "DASH-USD",  name: "Dash"}
+    - {symbol: "NEO-USD",   name: "Neo"}
+    - {symbol: "IOTA-USD",  name: "IOTA"}
+    - {symbol: "QNT-USD",   name: "Quant"}
+    - {symbol: "CRV-USD",   name: "Curve DAO"}
+    - {symbol: "COMP-USD",  name: "Compound"}
+    - {symbol: "SNX-USD",   name: "Synthetix"}
+    - {symbol: "UNI7083-USD",  name: "Uniswap",   tv: "UNIUSD"}
+    - {symbol: "TON11419-USD", name: "Toncoin",   tv: "TONUSD"}
+    - {symbol: "APT21794-USD", name: "Aptos",     tv: "APTUSD"}
+    - {symbol: "SUI20947-USD", name: "Sui",       tv: "SUIUSD"}
+    - {symbol: "ARB11841-USD", name: "Arbitrum",  tv: "ARBUSD"}
+
+  # Global futures used as stand-ins for MCX (Yahoo has no MCX prices).
+  # The link opens the MCX chart on TradingView.
+  commodities:
+    - {symbol: "GC=F",  name: "Gold (COMEX)",           tv: "MCX:GOLD1!"}
+    - {symbol: "SI=F",  name: "Silver (COMEX)",         tv: "MCX:SILVER1!"}
+    - {symbol: "HG=F",  name: "Copper (COMEX)",         tv: "MCX:COPPER1!"}
+    - {symbol: "CL=F",  name: "Crude Oil WTI (NYMEX)",  tv: "MCX:CRUDEOIL1!"}
+    - {symbol: "BZ=F",  name: "Brent Crude (ICE)",      tv: "ICEEUR:BRN1!"}
+    - {symbol: "NG=F",  name: "Natural Gas (NYMEX)",    tv: "MCX:NATURALGAS1!"}
+    - {symbol: "ALI=F", name: "Aluminium (COMEX)",      tv: "MCX:ALUMINIUM1!"}
+    - {symbol: "PL=F",  name: "Platinum (NYMEX)",       tv: "NYMEX:PL1!"}
+    - {symbol: "CT=F",  name: "Cotton (ICE US)",        tv: "ICEUS:CT1!"}
+    - {symbol: "ZS=F",  name: "Soybeans (CBOT)",        tv: "CBOT:ZS1!"}
+
+# ---------------------------------------------------------------------
+# ADVANCED (leave as is unless you know why)
+# ---------------------------------------------------------------------
+min_bars: 60                       # candles needed before a symbol is evaluated
+scan_last_bars: {15m: 3, 1h: 2, 4h: 2, 1d: 2, 1w: 2}      # catches crossovers if a run was late
+settle_minutes: {15m: 1, 1h: 2, 4h: 2, 1d: 15, 1w: 15}    # wait after a candle closes
+max_alert_age_minutes: {15m: 180, 1h: 600, 4h: 1500, 1d: 4320, 1w: 14400}  # never alert on older candles
+yahoo:
+  batch_size: 50
+  pause_seconds: 2.0
+  threads: 4
+  retries: 2
+  max_seconds: 900
