@@ -1,7 +1,0 @@
-pandas>=2.2
-numpy>=1.26
-requests>=2.31
-PyYAML>=6.0
-lxml>=4.9
-yfinance>=0.2.66
-websocket-client>=1.7
