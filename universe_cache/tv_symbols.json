@@ -5,6 +5,7 @@
   "DUMMYHEG.NS": "2026-11-01",
   "EMBASSY.NS": "2026-11-01",
   "EOS-USD": "2026-11-01",
+  "KVUE": "2026-11-02",
   "MKR-USD": "2026-11-01"
  },
  "winners": {
@@ -596,7 +597,6 @@
   "KPRMILL.NS": "NSE:KPRMILL",
   "KR": "NYSE:KR",
   "KSB.NS": "NSE:KSB",
-  "KVUE": "NYSE:KVUE",
   "L": "NYSE:L",
   "LALPATHLAB.NS": "NSE:LALPATHLAB",
   "LAURUSLABS.NS": "NSE:LAURUSLABS",
