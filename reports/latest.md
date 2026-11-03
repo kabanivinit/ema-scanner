@@ -1,6 +1,6 @@
 # EMA 10/20 Crossover Report
 
-Generated **03 Nov 2026 02:22 IST** · closed candles only · EMA 10 = green line, EMA 20 = red line
+Generated **04 Nov 2026 00:09 IST** · closed candles only · EMA 10 = green line, EMA 20 = red line
 
 ## 1. Market breadth
 
@@ -8,12 +8,12 @@ Share of symbols where EMA 10 is **above** EMA 20 (bullish) at the last closed c
 
 | Universe | Symbols | 15M | 1H | 4H | 1D | 1W |
 |---|---|---|---|---|---|---|
-| Nifty 500 | 501 | 64% (318/497) | 67% (334/497) | 28% (141/497) | 22% (110/499) | 30% (141/475) |
-| Nasdaq 100 | 101 | 50% (50/101) | 51% (52/101) | 50% (50/101) | 52% (53/101) | 52% (51/99) |
-| Crypto | 48 | 6% (3/48) | 2% (1/48) | 6% (3/48) | 6% (3/48) | 55% (26/47) |
-| Commodities (global proxy for MCX) | 10 | 10% (1/10) | 50% (5/10) | 10% (1/10) | 30% (3/10) | 50% (5/10) |
-| S&P 500 | 503 | 65% (325/503) | 68% (341/503) | 73% (365/502) | 69% (345/502) | 52% (257/499) |
-| Indian Indices | 30 | 80% (24/30) | 93% (28/30) | 67% (20/30) | 30% (9/30) | 17% (5/30) |
+| Nifty 500 | 501 | 49% (246/497) | 73% (364/497) | 35% (175/497) | 27% (134/499) | 30% (141/475) |
+| Nasdaq 100 | 101 | 39% (39/101) | 50% (50/101) | 49% (49/101) | 51% (52/101) | 52% (51/99) |
+| Crypto | 48 | 60% (29/48) | 71% (34/48) | 8% (4/48) | 2% (1/48) | 55% (26/47) |
+| Commodities (global proxy for MCX) | 10 | 30% (3/10) | 10% (1/10) | 10% (1/10) | 30% (3/10) | 50% (5/10) |
+| S&P 500 | 503 | 41% (207/503) | 68% (341/503) | 73% (364/502) | 70% (350/501) | 51% (256/498) |
+| Indian Indices | 30 | 77% (23/30) | 97% (29/30) | 93% (28/30) | 43% (13/30) | 17% (5/30) |
 
 ## 2. Fresh crossovers
 
@@ -21,193 +21,193 @@ Crossovers that happened within the last few closed candles (15M: 4, 1H: 4, 4H: 
 
 ### Nifty 500
 
-**15M** — 29 bullish, 42 bearish
+**15M** — 26 bullish, 53 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| BAJAJHLDNG | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹10,377.00 | 10,309.08 | 10,306.33 | +0.03% |
-| BATAINDIA | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹640.50 | 637.23 | 636.98 | +0.04% |
-| BEML | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹2,015.00 | 2,038.33 | 2,039.06 | -0.04% |
-| BSOFT | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹327.85 | 329.82 | 329.87 | -0.02% |
-| CGCL | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹234.10 | 229.24 | 228.83 | +0.18% |
-| CMPDI | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹182.11 | 182.35 | 182.38 | -0.01% |
-| CPPLUS | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹3,846.00 | 3,866.67 | 3,867.56 | -0.02% |
-| DEEPAKNTR | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹1,525.00 | 1,531.32 | 1,531.64 | -0.02% |
-| EIHOTEL | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹293.40 | 296.12 | 296.15 | -0.01% |
-| HSCL | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹520.95 | 520.42 | 520.40 | +0.00% |
-| KAJARIACER | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹1,125.30 | 1,134.94 | 1,135.01 | -0.01% |
-| KFINTECH | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 0 | ₹852.30 | 854.99 | 855.16 | -0.02% |
-| MANAPPURAM | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 0 | ₹296.10 | 296.26 | 296.26 | -0.00% |
-| NAVA | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹521.00 | 519.09 | 518.89 | +0.04% |
-| RVNL | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 0 | ₹186.25 | 186.83 | 186.87 | -0.02% |
-| TECHNOE | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹841.65 | 845.95 | 845.95 | -0.00% |
-| VISL | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹25.92 | 26.05 | 26.06 | -0.04% |
-| VOGL | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹30.87 | 31.14 | 31.17 | -0.09% |
-| VOLTAS | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 0 | ₹1,041.00 | 1,034.97 | 1,034.46 | +0.05% |
-| VTL | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹500.00 | 498.07 | 497.95 | +0.02% |
-| WIPRO | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 0 | ₹195.78 | 196.24 | 196.29 | -0.02% |
-| WOCKPHARMA | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,895.00 | 1,886.82 | 1,886.54 | +0.01% |
-| BALRAMCHIN | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹597.80 | 597.16 | 597.07 | +0.02% |
-| BHARTIARTL | 🔴 Bearish ↓ | 02 Nov 15:00 IST | 1 | ₹1,984.60 | 1,984.03 | 1,984.08 | -0.00% |
-| CESC | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 1 | ₹127.39 | 127.19 | 127.21 | -0.02% |
-| CIPLA | 🟢 Bullish ↑ | 02 Nov 15:00 IST | 1 | ₹1,379.00 | 1,375.45 | 1,374.68 | +0.06% |
-| GLAND | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹3,079.00 | 3,068.76 | 3,067.32 | +0.05% |
-| GLAXO | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 1 | ₹2,535.00 | 2,531.88 | 2,531.91 | -0.00% |
-| HAVELLS | 🟢 Bullish ↑ | 02 Nov 15:00 IST | 1 | ₹1,026.50 | 1,020.63 | 1,019.74 | +0.09% |
-| INDIAMART | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹1,509.00 | 1,498.56 | 1,496.92 | +0.11% |
-| M&M | 🔴 Bearish ↓ | 02 Nov 15:00 IST | 1 | ₹2,865.00 | 2,879.01 | 2,881.05 | -0.07% |
-| NAVINFLUOR | 🟢 Bullish ↑ | 02 Nov 15:00 IST | 1 | ₹8,392.00 | 8,383.52 | 8,382.41 | +0.01% |
-| NTPCGREEN | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 1 | ₹83.35 | 83.66 | 83.70 | -0.04% |
-| PFC | 🟢 Bullish ↑ | 02 Nov 15:00 IST | 1 | ₹317.15 | 316.92 | 316.82 | +0.03% |
-| TATATECH | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹656.00 | 655.84 | 655.81 | +0.00% |
-| TMCV | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 1 | ₹401.65 | 401.72 | 401.87 | -0.04% |
-| VAML | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹360.10 | 358.14 | 357.79 | +0.10% |
-| WELCORP | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 1 | ₹2,327.00 | 2,329.26 | 2,330.24 | -0.04% |
-| ABDL | 🟢 Bullish ↑ | 02 Nov 15:00 IST | 2 | ₹704.00 | 696.74 | 693.59 | +0.45% |
-| AEGISVOPAK | 🔴 Bearish ↓ | 02 Nov 15:00 IST | 2 | ₹228.00 | 228.77 | 228.91 | -0.06% |
+| AADHARHFC | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹424.90 | 422.29 | 422.15 | +0.03% |
+| ACC | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹1,167.00 | 1,175.03 | 1,175.34 | -0.03% |
+| ASHOKLEY | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 0 | ₹152.60 | 152.34 | 152.32 | +0.01% |
+| ATGL | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹548.80 | 551.22 | 551.43 | -0.04% |
+| ATUL | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹5,067.50 | 5,100.23 | 5,102.37 | -0.04% |
+| BDL | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹1,013.00 | 1,019.11 | 1,019.28 | -0.02% |
+| BEL | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 0 | ₹379.95 | 378.19 | 378.11 | +0.02% |
+| BPCL | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 0 | ₹295.00 | 294.39 | 294.39 | +0.00% |
+| BRIGADE | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹525.00 | 525.96 | 525.99 | -0.01% |
+| CCL | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹944.60 | 941.80 | 941.52 | +0.03% |
+| DELHIVERY | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹411.40 | 413.44 | 413.64 | -0.05% |
+| GRSE | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹2,123.30 | 2,145.57 | 2,147.17 | -0.07% |
+| HINDZINC | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹523.00 | 523.62 | 523.66 | -0.01% |
+| HONAUT | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹29,115.00 | 29,073.88 | 29,070.40 | +0.01% |
+| IFCI | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹57.30 | 57.64 | 57.65 | -0.01% |
+| KAJARIACER | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹1,140.20 | 1,145.69 | 1,145.72 | -0.00% |
+| MEESHO | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹222.70 | 222.82 | 222.83 | -0.00% |
+| MOTHERSON | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹159.81 | 160.50 | 160.54 | -0.03% |
+| MRF | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹117,450.00 | 117,607.28 | 117,623.25 | -0.01% |
+| RITES | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹193.20 | 192.99 | 192.97 | +0.01% |
+| TDPOWERSYS | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹710.00 | 713.53 | 713.66 | -0.02% |
+| THERMAX | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹3,152.00 | 3,160.29 | 3,160.38 | -0.00% |
+| VAML | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹360.20 | 357.99 | 357.98 | +0.00% |
+| VIJAYA | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹1,452.00 | 1,444.12 | 1,443.92 | +0.01% |
+| VMM | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 0 | ₹89.99 | 89.73 | 89.72 | +0.01% |
+| YESBANK | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹15.40 | 15.43 | 15.43 | -0.01% |
+| ACUTAAS | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹3,899.00 | 3,863.48 | 3,858.81 | +0.12% |
+| BANDHANBNK | 🔴 Bearish ↓ | 03 Nov 15:00 IST | 1 | ₹156.74 | 157.25 | 157.38 | -0.08% |
+| CHENNPETRO | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹1,541.00 | 1,544.87 | 1,545.78 | -0.06% |
+| CUPID | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹339.50 | 339.63 | 339.67 | -0.01% |
+| HINDPETRO | 🔴 Bearish ↓ | 03 Nov 15:00 IST | 1 | ₹352.90 | 353.54 | 353.63 | -0.02% |
+| IKS | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹1,730.00 | 1,726.60 | 1,725.90 | +0.04% |
+| JIOFIN | 🔴 Bearish ↓ | 03 Nov 15:00 IST | 1 | ₹213.70 | 213.90 | 213.94 | -0.02% |
+| M&MFIN | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹263.05 | 263.52 | 263.46 | +0.02% |
+| MAZDOCK | 🔴 Bearish ↓ | 03 Nov 15:00 IST | 1 | ₹1,783.50 | 1,792.52 | 1,793.67 | -0.06% |
+| MRPL | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹179.90 | 181.18 | 181.33 | -0.08% |
+| NH | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹1,870.60 | 1,879.56 | 1,880.91 | -0.07% |
+| NUVOCO | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹337.10 | 339.52 | 339.86 | -0.10% |
+| OLECTRA | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹1,009.10 | 1,007.43 | 1,007.22 | +0.02% |
+| RAINBOW | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹1,249.00 | 1,243.90 | 1,243.13 | +0.06% |
 
-_+31 more - see the CSV._
+_+39 more - see the CSV._
 
-**1H** — 50 bullish, 21 bearish
-
-| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
-|---|---|---|---|---|---|---|---|
-| ACE | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,029.65 | 1,018.36 | 1,018.15 | +0.02% |
-| AIAENG | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹3,591.00 | 3,605.61 | 3,606.35 | -0.02% |
-| APLAPOLLO | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 0 | ₹2,150.50 | 2,172.35 | 2,173.20 | -0.04% |
-| CUMMINSIND | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 0 | ₹4,537.60 | 4,489.18 | 4,485.22 | +0.09% |
-| EMAMILTD | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹370.35 | 367.20 | 366.99 | +0.06% |
-| GALLANTT | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹508.00 | 546.64 | 550.20 | -0.65% |
-| HAVELLS | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 0 | ₹1,026.50 | 1,019.05 | 1,018.74 | +0.03% |
-| HUDCO | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹146.35 | 145.72 | 145.66 | +0.04% |
-| IDBI | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹78.60 | 79.23 | 79.24 | -0.01% |
-| IGIL | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹395.05 | 398.36 | 398.55 | -0.05% |
-| JKCEMENT | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹4,920.00 | 4,878.43 | 4,876.31 | +0.04% |
-| PWL | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹129.52 | 130.25 | 130.28 | -0.02% |
-| SAIL | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 0 | ₹164.65 | 163.52 | 163.51 | +0.00% |
-| ABDL | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹704.00 | 696.09 | 694.47 | +0.23% |
-| APTUS | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹199.69 | 198.53 | 198.24 | +0.15% |
-| EICHERMOT | 🔴 Bearish ↓ | 02 Nov 14:15 IST | 1 | ₹7,178.00 | 7,203.92 | 7,209.67 | -0.08% |
-| FINCABLES | 🔴 Bearish ↓ | 02 Nov 15:15 IST | 1 | ₹1,145.00 | 1,149.75 | 1,151.00 | -0.11% |
-| HDBFS | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹505.05 | 501.20 | 500.79 | +0.08% |
-| HINDCOPPER | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹411.50 | 408.00 | 407.37 | +0.15% |
-| ICICIBANK | 🔴 Bearish ↓ | 02 Nov 14:15 IST | 1 | ₹1,382.70 | 1,385.56 | 1,386.28 | -0.05% |
-| KAYNES | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 1 | ₹3,218.00 | 3,206.43 | 3,204.55 | +0.06% |
-| LODHA | 🔴 Bearish ↓ | 02 Nov 14:15 IST | 1 | ₹1,002.90 | 1,011.79 | 1,014.22 | -0.24% |
-| NAUKRI | 🔴 Bearish ↓ | 02 Nov 14:15 IST | 1 | ₹1,179.60 | 1,188.40 | 1,189.64 | -0.10% |
-| NSLNISP | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | ₹39.10 | 38.76 | 38.69 | +0.16% |
-| AMBER | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 2 | ₹6,250.00 | 6,156.89 | 6,130.80 | +0.43% |
-| AUBANK | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 2 | ₹890.50 | 881.96 | 879.50 | +0.28% |
-| BAJAJ-AUTO | 🔴 Bearish ↓ | 02 Nov 13:15 IST | 2 | ₹10,296.00 | 10,334.14 | 10,347.42 | -0.13% |
-| BHARATCOAL | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹30.39 | 30.27 | 30.24 | +0.09% |
-| BHARATFORG | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 2 | ₹1,749.90 | 1,742.82 | 1,740.67 | +0.12% |
-| CARBORUNIV | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹1,080.30 | 1,071.59 | 1,069.05 | +0.24% |
-| CASTROLIND | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹196.50 | 191.76 | 190.37 | +0.73% |
-| DEVYANI | 🔴 Bearish ↓ | 02 Nov 14:15 IST | 2 | ₹115.79 | 119.63 | 120.38 | -0.63% |
-| DOMS | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹1,843.60 | 1,847.38 | 1,846.07 | +0.07% |
-| GMRAIRPORT | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 2 | ₹88.68 | 88.48 | 88.39 | +0.10% |
-| ICICIAMC | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹2,773.00 | 2,758.79 | 2,752.57 | +0.23% |
-| JMFINANCIL | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹111.86 | 111.22 | 110.94 | +0.25% |
-| JYOTICNC | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹943.95 | 935.72 | 933.50 | +0.24% |
-| LICI | 🔴 Bearish ↓ | 02 Nov 13:15 IST | 2 | ₹387.60 | 387.83 | 388.12 | -0.07% |
-| PCBL | 🔴 Bearish ↓ | 02 Nov 14:15 IST | 2 | ₹282.00 | 282.17 | 282.70 | -0.19% |
-| SCHNEIDER | 🟢 Bullish ↑ | 02 Nov 14:15 IST | 2 | ₹1,129.00 | 1,125.08 | 1,124.12 | +0.09% |
-
-_+31 more - see the CSV._
-
-**4H** — 54 bullish, 12 bearish
+**1H** — 26 bullish, 30 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| ADANIGREEN | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹1,327.10 | 1,286.10 | 1,281.97 | +0.32% |
-| AFFLE | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,502.00 | 1,405.51 | 1,398.12 | +0.53% |
-| ASAHIINDIA | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹952.00 | 921.35 | 918.89 | +0.27% |
-| CLEANMAX | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,255.00 | 1,242.74 | 1,242.60 | +0.01% |
-| CRISIL | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹4,550.00 | 4,594.89 | 4,598.90 | -0.09% |
-| CUPID | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹341.00 | 327.55 | 326.85 | +0.22% |
-| ENGINERSIN | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹287.50 | 266.32 | 265.13 | +0.45% |
-| FORCEMOT | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹17,745.00 | 17,180.48 | 17,151.69 | +0.17% |
-| GLAXO | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹2,535.00 | 2,507.81 | 2,507.70 | +0.00% |
-| GLENMARK | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹2,379.90 | 2,284.85 | 2,283.53 | +0.06% |
-| HEROMOTOCO | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹5,165.50 | 5,163.53 | 5,163.32 | +0.00% |
-| HOMEFIRST | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,065.30 | 1,052.00 | 1,050.79 | +0.12% |
-| INDIACEM | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹316.20 | 310.43 | 309.85 | +0.19% |
-| ITI | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹259.14 | 232.74 | 230.56 | +0.94% |
-| JSWENERGY | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹503.00 | 484.20 | 484.06 | +0.03% |
-| KIRLOSBROS | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,760.00 | 1,661.82 | 1,652.21 | +0.58% |
-| NAVINFLUOR | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹8,397.50 | 8,252.43 | 8,250.60 | +0.02% |
-| NUVOCO | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹338.00 | 332.58 | 332.58 | +0.00% |
-| PATANJALI | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹366.40 | 360.38 | 360.19 | +0.05% |
-| PETRONET | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹299.35 | 290.88 | 290.33 | +0.19% |
-| POWERGRID | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | ₹265.75 | 256.43 | 255.50 | +0.37% |
-| RAINBOW | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,251.50 | 1,219.08 | 1,217.58 | +0.12% |
-| RPOWER | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹18.50 | 18.05 | 18.02 | +0.13% |
-| TORNTPOWER | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹1,238.90 | 1,188.16 | 1,187.51 | +0.06% |
-| TRIDENT | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | ₹22.26 | 21.52 | 21.49 | +0.15% |
-| TTML | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | ₹34.91 | 36.12 | 36.17 | -0.14% |
-| ACMESOLAR | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹418.20 | 408.95 | 407.37 | +0.39% |
-| AETHER | 🔴 Bearish ↓ | 02 Nov 13:15 IST | 1 | ₹1,517.00 | 1,545.36 | 1,550.36 | -0.32% |
-| BANKBARODA | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 1 | ₹244.41 | 236.32 | 235.14 | +0.50% |
-| CANFINHOME | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹743.00 | 729.11 | 726.94 | +0.30% |
-| CHOLAHLDNG | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹1,400.30 | 1,342.42 | 1,334.51 | +0.59% |
-| CIPLA | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 1 | ₹1,367.60 | 1,352.21 | 1,348.03 | +0.31% |
-| COHANCE | 🔴 Bearish ↓ | 02 Nov 13:15 IST | 1 | ₹446.60 | 457.89 | 459.32 | -0.31% |
-| GROWW | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹196.50 | 191.78 | 190.89 | +0.47% |
-| JSWSTEEL | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 1 | ₹1,289.80 | 1,243.07 | 1,236.61 | +0.52% |
-| LEMONTREE | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹112.85 | 110.70 | 110.34 | +0.33% |
-| LT | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 1 | ₹3,909.30 | 3,772.09 | 3,751.63 | +0.55% |
-| MEESHO | 🔴 Bearish ↓ | 02 Nov 13:15 IST | 1 | ₹221.90 | 222.67 | 222.81 | -0.06% |
-| NHPC | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 1 | ₹78.23 | 74.50 | 73.82 | +0.92% |
-| PGEL | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 1 | ₹535.15 | 518.49 | 516.54 | +0.38% |
+| BLS | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹214.50 | 217.00 | 217.02 | -0.01% |
+| CANBK | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹117.43 | 118.49 | 118.59 | -0.09% |
+| CPPLUS | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹3,899.00 | 3,882.56 | 3,881.97 | +0.02% |
+| FIRSTCRY | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹163.20 | 162.15 | 162.05 | +0.06% |
+| GPIL | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹193.02 | 194.04 | 194.08 | -0.02% |
+| HUDCO | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹144.78 | 145.87 | 145.91 | -0.03% |
+| INDIAMART | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹1,549.50 | 1,527.38 | 1,525.12 | +0.15% |
+| JAINREC | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹270.00 | 276.14 | 276.48 | -0.12% |
+| JUBLFOOD | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹420.60 | 423.21 | 423.26 | -0.01% |
+| MAHABANK | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹79.21 | 79.67 | 79.70 | -0.03% |
+| NATIONALUM | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹317.70 | 319.88 | 319.89 | -0.00% |
+| PFC | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹316.50 | 317.56 | 317.62 | -0.02% |
+| RBLBANK | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹349.60 | 352.19 | 352.44 | -0.07% |
+| UNIONBANK | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 0 | ₹183.25 | 184.95 | 185.06 | -0.06% |
+| WHIRLPOOL | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹812.80 | 822.46 | 822.78 | -0.04% |
+| BATAINDIA | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹647.45 | 643.04 | 642.03 | +0.16% |
+| CLEANMAX | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹1,225.00 | 1,240.89 | 1,244.35 | -0.28% |
+| ICICIGI | 🟢 Bullish ↑ | 03 Nov 14:15 IST | 1 | ₹1,571.10 | 1,568.98 | 1,568.55 | +0.03% |
+| INDUSINDBK | 🟢 Bullish ↑ | 03 Nov 14:15 IST | 1 | ₹851.30 | 846.49 | 845.85 | +0.08% |
+| LLOYDSME | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹1,777.00 | 1,810.94 | 1,816.00 | -0.28% |
+| MGL | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹1,051.00 | 1,048.70 | 1,047.29 | +0.13% |
+| NSLNISP | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹38.23 | 38.60 | 38.65 | -0.12% |
+| PNB | 🔴 Bearish ↓ | 03 Nov 14:15 IST | 1 | ₹120.75 | 122.07 | 122.26 | -0.15% |
+| RHIM | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹359.00 | 354.00 | 353.25 | +0.21% |
+| SANSERA | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹4,228.00 | 4,201.44 | 4,196.62 | +0.11% |
+| SOBHA | 🟢 Bullish ↑ | 03 Nov 15:15 IST | 1 | ₹1,145.00 | 1,142.45 | 1,142.04 | +0.04% |
+| ZFCVINDIA | 🔴 Bearish ↓ | 03 Nov 15:15 IST | 1 | ₹2,117.00 | 2,114.95 | 2,115.25 | -0.01% |
+| ABBOTINDIA | 🔴 Bearish ↓ | 03 Nov 14:15 IST | 2 | ₹25,780.00 | 25,869.68 | 25,886.74 | -0.07% |
+| BIOCON | 🔴 Bearish ↓ | 03 Nov 13:15 IST | 2 | ₹343.30 | 346.71 | 347.60 | -0.26% |
+| BSOFT | 🔴 Bearish ↓ | 03 Nov 14:15 IST | 2 | ₹322.90 | 325.08 | 325.67 | -0.18% |
+| CARTRADE | 🟢 Bullish ↑ | 03 Nov 14:15 IST | 2 | ₹2,473.10 | 2,403.81 | 2,383.27 | +0.86% |
+| COLPAL | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 2 | ₹1,626.00 | 1,607.59 | 1,603.42 | +0.26% |
+| CROMPTON | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 2 | ₹197.03 | 197.34 | 197.16 | +0.09% |
+| DATAPATTNS | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 2 | ₹3,939.00 | 3,938.10 | 3,932.99 | +0.13% |
+| GICRE | 🟢 Bullish ↑ | 03 Nov 14:15 IST | 2 | ₹318.05 | 317.88 | 317.67 | +0.07% |
+| GODREJCP | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 2 | ₹829.00 | 823.01 | 821.62 | +0.17% |
+| MPHASIS | 🔴 Bearish ↓ | 03 Nov 13:15 IST | 2 | ₹2,520.00 | 2,534.66 | 2,538.00 | -0.13% |
+| NEULANDLAB | 🔴 Bearish ↓ | 03 Nov 14:15 IST | 2 | ₹19,394.00 | 19,457.79 | 19,468.80 | -0.06% |
+| PARADEEP | 🟢 Bullish ↑ | 03 Nov 14:15 IST | 2 | ₹133.60 | 133.34 | 133.16 | +0.13% |
+| RADICO | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 2 | ₹4,250.00 | 4,207.29 | 4,190.72 | +0.40% |
 
-_+26 more - see the CSV._
+_+16 more - see the CSV._
 
-**1D** — 41 bullish, 9 bearish
+**4H** — 66 bullish, 6 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| ADANIGREEN | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹1,337.00 | 1,288.94 | 1,284.56 | +0.34% |
-| APOLLOHOSP | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹8,459.00 | 8,100.60 | 8,089.54 | +0.14% |
-| BEML | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹2,030.90 | 1,964.58 | 1,962.32 | +0.12% |
-| FORCEMOT | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹17,669.00 | 17,172.94 | 17,153.14 | +0.12% |
-| GILLETTE | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | ₹7,039.00 | 7,160.29 | 7,163.97 | -0.05% |
-| GLENMARK | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹2,382.00 | 2,289.73 | 2,288.52 | +0.05% |
-| GROWW | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹196.31 | 191.12 | 190.99 | +0.07% |
-| HEGAM | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹246.11 | 229.19 | 229.04 | +0.07% |
-| HEROMOTOCO | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹5,193.00 | 5,169.79 | 5,167.91 | +0.04% |
-| HEXT | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | ₹497.90 | 545.13 | 546.66 | -0.28% |
-| IOC | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹134.59 | 130.98 | 130.94 | +0.03% |
-| ITC | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹266.40 | 262.89 | 262.72 | +0.06% |
-| JSWENERGY | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹505.50 | 486.33 | 485.73 | +0.12% |
-| KPRMILL | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹1,131.50 | 1,082.19 | 1,080.91 | +0.12% |
-| LTM | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹4,233.50 | 4,169.53 | 4,167.79 | +0.04% |
-| NAVINFLUOR | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹8,406.00 | 8,287.45 | 8,276.86 | +0.13% |
-| NUVAMA | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹1,805.10 | 1,738.59 | 1,733.36 | +0.30% |
-| ONGC | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹234.83 | 227.56 | 227.22 | +0.15% |
-| PATANJALI | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹369.00 | 363.83 | 363.43 | +0.11% |
-| PETRONET | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹300.95 | 292.26 | 291.35 | +0.31% |
-| POONAWALLA | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹480.70 | 441.04 | 440.82 | +0.05% |
-| POWERGRID | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹267.70 | 256.88 | 255.81 | +0.42% |
-| RELIANCE | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹1,300.00 | 1,202.85 | 1,202.19 | +0.05% |
-| SAILIFE | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹1,542.30 | 1,487.42 | 1,483.90 | +0.24% |
-| TATACOMM | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹1,755.50 | 1,702.17 | 1,698.29 | +0.23% |
-| WELSPUNLIV | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | ₹242.34 | 220.80 | 219.70 | +0.50% |
-| CIPLA | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | ₹1,387.00 | 1,357.37 | 1,351.66 | +0.42% |
-| CPPLUS | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | ₹3,849.30 | 3,921.13 | 3,929.77 | -0.22% |
-| CRAFTSMAN | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | ₹10,510.00 | 10,702.07 | 10,726.58 | -0.23% |
-| GALLANTT | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | ₹516.35 | 551.08 | 554.79 | -0.67% |
-| HFCL | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | ₹219.73 | 240.78 | 243.24 | -1.01% |
-| LT | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | ₹3,939.90 | 3,779.37 | 3,755.68 | +0.63% |
-| PGEL | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | ₹533.05 | 517.50 | 515.76 | +0.34% |
-| SAGILITY | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | ₹42.74 | 44.05 | 44.25 | -0.45% |
-| SANSERA | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | ₹4,157.40 | 4,169.01 | 4,172.53 | -0.08% |
-| ADANIPORTS | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | ₹1,854.00 | 1,798.71 | 1,779.19 | +1.10% |
-| APLAPOLLO | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | ₹2,163.70 | 2,147.88 | 2,142.90 | +0.23% |
-| BANKBARODA | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | ₹245.16 | 237.19 | 235.77 | +0.60% |
-| BOSCHLTD | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | ₹48,100.00 | 46,417.12 | 46,032.14 | +0.84% |
-| CEMPRO | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | ₹1,289.60 | 1,224.63 | 1,209.40 | +1.26% |
+| ACC | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹1,167.00 | 1,155.99 | 1,155.93 | +0.01% |
+| ADANIENSOL | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹1,376.50 | 1,331.87 | 1,330.79 | +0.08% |
+| ANGELONE | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹312.85 | 294.65 | 293.84 | +0.28% |
+| APOLLOHOSP | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹8,422.00 | 8,112.23 | 8,088.90 | +0.29% |
+| CLEANMAX | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹1,225.00 | 1,239.79 | 1,241.10 | -0.11% |
+| DEEPAKNTR | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹1,524.00 | 1,511.65 | 1,510.56 | +0.07% |
+| EICHERMOT | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹7,307.00 | 7,206.08 | 7,205.76 | +0.00% |
+| EMAMILTD | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹382.00 | 371.98 | 371.67 | +0.08% |
+| ENDURANCE | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹2,412.90 | 2,344.98 | 2,340.13 | +0.21% |
+| FLUOROCHEM | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹4,480.00 | 4,348.28 | 4,335.08 | +0.30% |
+| FRACTAL | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹709.80 | 739.79 | 741.45 | -0.22% |
+| GAIL | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹181.24 | 170.63 | 169.61 | +0.60% |
+| GRANULES | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | ₹795.00 | 819.48 | 821.36 | -0.23% |
+| HDFCAMC | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹2,429.50 | 2,331.29 | 2,329.94 | +0.06% |
+| HINDPETRO | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹353.25 | 343.97 | 343.68 | +0.09% |
+| INDIGO | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹5,006.90 | 4,782.10 | 4,780.56 | +0.03% |
+| IOC | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹136.84 | 131.30 | 130.88 | +0.32% |
+| ITC | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹267.70 | 262.54 | 262.21 | +0.13% |
+| JINDALSTEL | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹1,106.40 | 1,064.65 | 1,063.62 | +0.10% |
+| LGEINDIA | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹1,690.00 | 1,678.12 | 1,677.53 | +0.04% |
+| LTFOODS | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹415.70 | 393.67 | 393.00 | +0.17% |
+| LTM | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹4,196.20 | 4,174.39 | 4,173.45 | +0.02% |
+| MARICO | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹864.20 | 798.35 | 793.37 | +0.63% |
+| MCX | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹3,493.00 | 3,239.26 | 3,226.02 | +0.41% |
+| NAVA | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹521.00 | 512.97 | 512.97 | +0.00% |
+| ONGC | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹231.23 | 227.03 | 226.65 | +0.16% |
+| PRESTIGE | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹1,529.60 | 1,446.64 | 1,446.56 | +0.01% |
+| RELIANCE | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹1,290.60 | 1,210.18 | 1,205.57 | +0.38% |
+| SBIN | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 0 | ₹997.10 | 968.39 | 966.58 | +0.19% |
+| TATACHEM | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | ₹609.90 | 605.93 | 605.83 | +0.02% |
+| ADANIGREEN | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹1,338.10 | 1,295.56 | 1,287.31 | +0.64% |
+| ANTHEM | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | ₹858.85 | 837.25 | 833.75 | +0.42% |
+| BERGEPAINT | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | ₹478.40 | 469.59 | 467.93 | +0.35% |
+| CAPLIPOINT | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | ₹2,366.10 | 2,345.52 | 2,343.28 | +0.10% |
+| CEATLTD | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | ₹3,333.80 | 3,215.19 | 3,200.23 | +0.47% |
+| EIHOTEL | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | ₹295.90 | 293.49 | 293.16 | +0.11% |
+| FORCEMOT | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹17,822.00 | 17,297.12 | 17,215.68 | +0.47% |
+| GLENMARK | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | ₹2,365.30 | 2,299.48 | 2,291.39 | +0.35% |
+| GRSE | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | ₹2,123.30 | 2,022.61 | 2,005.14 | +0.87% |
+| HONASA | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | ₹457.20 | 450.06 | 449.06 | +0.22% |
 
-_+10 more - see the CSV._
+_+32 more - see the CSV._
+
+**1D** — 53 bullish, 8 bearish
+
+| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
+|---|---|---|---|---|---|---|---|
+| ADANIENSOL | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,369.60 | 1,336.65 | 1,333.56 | +0.23% |
+| ANGELONE | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹310.40 | 293.98 | 293.72 | +0.09% |
+| ASAHIINDIA | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹991.45 | 932.16 | 931.56 | +0.06% |
+| AUROPHARMA | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,694.50 | 1,658.15 | 1,656.39 | +0.11% |
+| BALKRISIND | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹2,190.50 | 2,111.76 | 2,104.71 | +0.34% |
+| BERGEPAINT | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹479.70 | 469.21 | 468.53 | +0.14% |
+| CHOICEIN | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹745.00 | 730.02 | 729.97 | +0.01% |
+| CRISIL | 🔴 Bearish ↓ | Daily close 03 Nov 2026 | 0 | ₹4,419.40 | 4,569.50 | 4,572.78 | -0.07% |
+| EICHERMOT | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹7,440.00 | 7,238.98 | 7,227.41 | +0.16% |
+| EMCURE | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,976.60 | 1,873.22 | 1,868.13 | +0.27% |
+| FRACTAL | 🔴 Bearish ↓ | Daily close 03 Nov 2026 | 0 | ₹732.80 | 743.45 | 743.58 | -0.02% |
+| GAIL | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹181.75 | 171.02 | 169.94 | +0.64% |
+| GILLETTE | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹7,236.00 | 7,174.06 | 7,170.83 | +0.04% |
+| GRASIM | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹3,090.00 | 2,975.62 | 2,974.36 | +0.04% |
+| HDFCAMC | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹2,440.00 | 2,338.51 | 2,334.83 | +0.16% |
+| HINDPETRO | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹352.50 | 345.83 | 345.31 | +0.15% |
+| HINDUNILVR | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,962.80 | 1,874.63 | 1,873.02 | +0.09% |
+| INDIGO | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹5,025.00 | 4,797.96 | 4,792.72 | +0.11% |
+| JINDALSTEL | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,105.00 | 1,067.07 | 1,065.81 | +0.12% |
+| MARICO | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹878.40 | 803.96 | 797.12 | +0.86% |
+| MCX | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹3,490.10 | 3,246.10 | 3,230.71 | +0.48% |
+| NH | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,870.60 | 1,757.46 | 1,750.93 | +0.37% |
+| PRESTIGE | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,537.00 | 1,458.85 | 1,456.41 | +0.17% |
+| RUBICON | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,718.00 | 1,586.50 | 1,574.50 | +0.76% |
+| SANSERA | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹4,225.20 | 4,179.22 | 4,177.55 | +0.04% |
+| VEDPOWER | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹34.11 | 31.63 | 31.51 | +0.38% |
+| VIJAYA | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,447.10 | 1,434.52 | 1,433.42 | +0.08% |
+| ZENTEC | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | ₹1,710.60 | 1,629.23 | 1,624.04 | +0.32% |
+| ADANIGREEN | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹1,339.30 | 1,298.09 | 1,289.78 | +0.64% |
+| APOLLOHOSP | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹8,440.00 | 8,162.31 | 8,122.92 | +0.48% |
+| BEML | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹2,051.70 | 1,980.42 | 1,970.83 | +0.49% |
+| FORCEMOT | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹17,787.00 | 17,284.58 | 17,213.51 | +0.41% |
+| GLENMARK | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹2,408.00 | 2,311.23 | 2,299.90 | +0.49% |
+| GROWW | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹205.98 | 193.82 | 192.42 | +0.73% |
+| HEGAM | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹240.66 | 231.28 | 230.14 | +0.49% |
+| HEROMOTOCO | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹5,300.00 | 5,193.47 | 5,180.49 | +0.25% |
+| HEXT | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 1 | ₹499.40 | 536.82 | 542.16 | -0.99% |
+| IOC | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹138.67 | 132.38 | 131.68 | +0.53% |
+| ITC | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹273.90 | 264.89 | 263.78 | +0.42% |
+| JSWENERGY | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | ₹502.60 | 489.29 | 487.34 | +0.40% |
+
+_+21 more - see the CSV._
 
 **1W** — 7 bullish, 48 bearish
 
@@ -217,33 +217,33 @@ _+10 more - see the CSV._
 | BELRISE | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹206.44 | 225.70 | 226.25 | -0.24% |
 | BRIGADE | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹527.10 | 572.30 | 576.12 | -0.66% |
 | CGPOWER | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹804.00 | 852.86 | 857.14 | -0.50% |
-| DATAPATTNS | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹3,800.00 | 4,160.70 | 4,192.39 | -0.76% |
+| DATAPATTNS | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹3,800.00 | 4,160.70 | 4,192.40 | -0.76% |
 | DEVYANI | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹120.40 | 125.91 | 125.91 | -0.01% |
 | DRREDDY | 🟢 Bullish ↑ | Week ending 30 Oct 2026 | 0 | ₹1,352.00 | 1,233.31 | 1,228.67 | +0.38% |
 | IDFCFIRSTB | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹72.00 | 78.61 | 79.21 | -0.76% |
 | IGIL | 🟢 Bullish ↑ | Week ending 30 Oct 2026 | 0 | ₹397.75 | 347.95 | 344.13 | +1.11% |
-| LODHA | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹1,037.00 | 1,084.16 | 1,087.29 | -0.29% |
+| LODHA | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹1,037.00 | 1,084.16 | 1,087.30 | -0.29% |
 | LTFOODS | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹379.50 | 404.28 | 406.60 | -0.57% |
-| MANKIND | 🟢 Bullish ↑ | Week ending 30 Oct 2026 | 0 | ₹2,492.80 | 2,377.40 | 2,376.02 | +0.06% |
+| MANKIND | 🟢 Bullish ↑ | Week ending 30 Oct 2026 | 0 | ₹2,492.80 | 2,377.40 | 2,376.03 | +0.06% |
 | MEDANTA | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹1,270.30 | 1,326.36 | 1,329.51 | -0.24% |
 | MINDACORP | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹632.45 | 654.92 | 655.25 | -0.05% |
 | NUVOCO | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹320.40 | 328.96 | 329.42 | -0.14% |
 | PRIVISCL | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹3,218.10 | 3,394.79 | 3,404.92 | -0.30% |
 | STARHEALTH | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹530.40 | 547.65 | 548.31 | -0.12% |
-| TCS | 🟢 Bullish ↑ | Week ending 30 Oct 2026 | 0 | ₹2,502.60 | 2,330.09 | 2,320.91 | +0.40% |
-| THANGAMAYL | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹4,455.00 | 4,960.51 | 5,010.04 | -0.99% |
+| TCS | 🟢 Bullish ↑ | Week ending 30 Oct 2026 | 0 | ₹2,502.60 | 2,330.09 | 2,320.90 | +0.40% |
+| THANGAMAYL | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹4,455.00 | 4,960.51 | 5,010.05 | -0.99% |
 | TRENT | 🟢 Bullish ↑ | Week ending 30 Oct 2026 | 0 | ₹3,017.30 | 2,860.04 | 2,859.62 | +0.01% |
 | USHAMART | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | ₹445.90 | 483.21 | 484.41 | -0.25% |
 | AARTIIND | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹435.75 | 470.23 | 474.88 | -0.98% |
 | ABB | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹6,413.00 | 6,813.51 | 6,912.11 | -1.43% |
 | ABCAPITAL | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹369.45 | 379.66 | 380.88 | -0.32% |
-| ADANIENT | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹2,579.40 | 2,757.05 | 2,796.68 | -1.42% |
+| ADANIENT | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹2,579.40 | 2,757.05 | 2,796.69 | -1.42% |
 | ANANTRAJ | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹447.30 | 537.57 | 553.56 | -2.89% |
-| BAJAJ-AUTO | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹10,350.00 | 10,610.55 | 10,655.22 | -0.42% |
+| BAJAJ-AUTO | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹10,350.00 | 10,610.55 | 10,655.21 | -0.42% |
 | BAJFINANCE | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹939.10 | 982.51 | 993.06 | -1.06% |
 | BHARTIHEXA | 🟢 Bullish ↑ | Week ending 23 Oct 2026 | 1 | ₹1,636.20 | 1,567.28 | 1,558.04 | +0.59% |
 | CLEAN | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹715.60 | 774.96 | 786.05 | -1.41% |
-| DIXON | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹11,000.00 | 12,463.65 | 12,698.33 | -1.85% |
+| DIXON | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹11,000.00 | 12,463.65 | 12,698.34 | -1.85% |
 | ELGIEQUIP | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹509.05 | 567.19 | 574.23 | -1.23% |
 | EXIDEIND | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹335.50 | 386.54 | 396.71 | -2.56% |
 | FIVESTAR | 🔴 Bearish ↓ | Week ending 23 Oct 2026 | 1 | ₹396.85 | 486.27 | 497.65 | -2.29% |
@@ -258,67 +258,68 @@ _+15 more - see the CSV._
 
 ### Nasdaq 100
 
-**15M** — 0 bullish, 10 bearish
+**15M** — 2 bullish, 9 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| ISRG | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $437.23 | 440.49 | 440.80 | -0.07% |
-| MRNA | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $221.39 | 223.58 | 223.70 | -0.05% |
-| WDAY | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $199.00 | 200.48 | 200.61 | -0.07% |
-| SHOP | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $156.46 | 158.17 | 158.46 | -0.18% |
-| SNPS | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $469.11 | 470.07 | 470.39 | -0.07% |
-| TSLA | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $402.93 | 405.73 | 406.16 | -0.11% |
-| XEL | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $78.84 | 79.54 | 79.62 | -0.11% |
-| AXON | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $429.57 | 431.06 | 431.66 | -0.14% |
-| TTWO | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $192.77 | 193.16 | 193.27 | -0.06% |
-| ADI | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 3 | $418.10 | 420.02 | 421.07 | -0.25% |
+| CMCSA | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $23.57 | 23.67 | 23.67 | -0.03% |
+| CTAS | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $223.81 | 223.95 | 223.96 | -0.00% |
+| SNDK | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $1,113.62 | 1,115.97 | 1,116.09 | -0.01% |
+| ALAB | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $239.42 | 240.60 | 240.80 | -0.09% |
+| ALNY | 🟢 Bullish ↑ | 03 Nov 23:30 IST | 1 | $160.42 | 160.12 | 160.05 | +0.04% |
+| MU | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $852.13 | 853.38 | 853.59 | -0.03% |
+| CRWD | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $245.92 | 246.29 | 246.44 | -0.06% |
+| LRCX | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $230.88 | 231.52 | 231.72 | -0.09% |
+| MSFT | 🟢 Bullish ↑ | 03 Nov 23:15 IST | 2 | $520.97 | 517.82 | 516.99 | +0.16% |
+| ORLY | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $90.22 | 90.20 | 90.20 | -0.00% |
+| ISRG | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 3 | $440.98 | 439.82 | 439.83 | -0.00% |
 
-**1H** — 5 bullish, 3 bearish
-
-| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
-|---|---|---|---|---|---|---|---|
-| CEG | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $258.73 | 261.53 | 261.64 | -0.04% |
-| CSX | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $51.48 | 51.73 | 51.76 | -0.05% |
-| AMZN | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $247.26 | 246.94 | 246.64 | +0.12% |
-| FANG | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $199.37 | 204.24 | 205.67 | -0.69% |
-| MELI | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $1,694.00 | 1,676.58 | 1,669.54 | +0.42% |
-| ODFL | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $176.90 | 175.69 | 175.17 | +0.29% |
-| WDAY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $199.00 | 199.95 | 199.81 | +0.07% |
-| PCAR | 🟢 Bullish ↑ | 02 Nov 23:00 IST | 3 | $103.13 | 102.99 | 102.84 | +0.15% |
-
-**4H** — 5 bullish, 10 bearish
+**1H** — 5 bullish, 6 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| ADBE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $254.75 | 251.70 | 251.58 | +0.05% |
-| ORLY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $90.24 | 89.28 | 89.19 | +0.11% |
-| PANW | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $362.77 | 374.68 | 375.68 | -0.27% |
-| PDD | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $82.79 | 79.43 | 79.35 | +0.10% |
-| WDC | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $345.92 | 370.85 | 371.96 | -0.30% |
-| HONA | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $160.27 | 161.56 | 162.44 | -0.54% |
-| PAYX | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $115.70 | 112.09 | 111.65 | +0.39% |
-| QCOM | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $166.07 | 173.92 | 175.68 | -1.00% |
-| AMD | 🔴 Bearish ↓ | 30 Oct 23:00 IST | 2 | $480.81 | 528.20 | 539.55 | -2.10% |
-| AVGO | 🔴 Bearish ↓ | 30 Oct 23:00 IST | 2 | $329.20 | 334.75 | 336.84 | -0.62% |
-| DDOG | 🔴 Bearish ↓ | 30 Oct 23:00 IST | 2 | $222.20 | 252.57 | 260.30 | -2.97% |
-| LITE | 🔴 Bearish ↓ | 30 Oct 23:00 IST | 2 | $706.76 | 834.68 | 851.22 | -1.94% |
-| MDLZ | 🟢 Bullish ↑ | 30 Oct 23:00 IST | 2 | $66.05 | 63.84 | 63.34 | +0.80% |
-| MU | 🔴 Bearish ↓ | 30 Oct 23:00 IST | 2 | $851.96 | 903.52 | 914.88 | -1.24% |
-| RKLB | 🔴 Bearish ↓ | 30 Oct 23:00 IST | 2 | $52.64 | 55.71 | 56.22 | -0.91% |
+| MCHP | 🟢 Bullish ↑ | 03 Nov 23:00 IST | 0 | $79.69 | 78.50 | 78.39 | +0.15% |
+| TSLA | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $397.36 | 402.20 | 402.45 | -0.06% |
+| VRTX | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $536.32 | 547.08 | 547.50 | -0.08% |
+| NFLX | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $62.66 | 62.41 | 62.38 | +0.06% |
+| TRI | 🔴 Bearish ↓ | 03 Nov 22:00 IST | 1 | $113.29 | 117.52 | 118.13 | -0.52% |
+| ADBE | 🔴 Bearish ↓ | 03 Nov 21:00 IST | 2 | $247.48 | 249.64 | 250.27 | -0.25% |
+| ADI | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $428.17 | 423.50 | 422.15 | +0.32% |
+| AXON | 🔴 Bearish ↓ | 03 Nov 21:00 IST | 2 | $418.79 | 425.20 | 426.91 | -0.40% |
+| CEG | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $265.90 | 263.04 | 262.43 | +0.23% |
+| ROST | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $231.86 | 230.79 | 230.52 | +0.12% |
+| WDAY | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 3 | $198.57 | 198.80 | 199.15 | -0.18% |
 
-**1D** — 3 bullish, 6 bearish
+**4H** — 6 bullish, 7 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| CMCSA | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $23.22 | 22.23 | 22.17 | +0.27% |
-| DDOG | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $235.27 | 264.58 | 265.26 | -0.25% |
-| PANW | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $365.87 | 377.44 | 377.85 | -0.11% |
-| QCOM | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $164.79 | 177.27 | 177.99 | -0.40% |
-| ROST | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $228.28 | 231.20 | 231.36 | -0.07% |
-| FER | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $55.29 | 52.97 | 52.48 | +0.92% |
-| FTNT | 🔴 Bearish ↓ | Daily close 29 Oct 2026 | 1 | $136.08 | 165.13 | 171.27 | -3.58% |
-| CDNS | 🟢 Bullish ↑ | Daily close 28 Oct 2026 | 2 | $327.89 | 331.57 | 330.06 | +0.46% |
-| ODFL | 🔴 Bearish ↓ | Daily close 28 Oct 2026 | 2 | $172.56 | 179.67 | 181.33 | -0.92% |
+| AAPL | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $339.06 | 343.52 | 343.80 | -0.08% |
+| CRWD | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $241.84 | 252.33 | 252.52 | -0.08% |
+| DXCM | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $84.77 | 81.80 | 81.60 | +0.25% |
+| TMUS | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $160.15 | 154.05 | 153.51 | +0.35% |
+| WDAY | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $198.14 | 200.21 | 200.26 | -0.03% |
+| ADBE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $251.46 | 251.66 | 251.57 | +0.03% |
+| ORLY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $90.70 | 89.54 | 89.33 | +0.23% |
+| PANW | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 1 | $351.81 | 370.52 | 373.40 | -0.77% |
+| PDD | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $81.69 | 79.84 | 79.57 | +0.34% |
+| WDC | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 1 | $338.74 | 365.01 | 368.79 | -1.03% |
+| HONA | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 2 | $157.94 | 160.91 | 162.01 | -0.68% |
+| PAYX | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 2 | $115.50 | 112.71 | 112.02 | +0.62% |
+| QCOM | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 2 | $162.07 | 171.77 | 174.38 | -1.50% |
+
+**1D** — 2 bullish, 6 bearish
+
+| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
+|---|---|---|---|---|---|---|---|
+| PLTR | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $178.34 | 191.80 | 192.83 | -0.53% |
+| CMCSA | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $23.87 | 22.53 | 22.33 | +0.88% |
+| DDOG | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $216.10 | 255.77 | 260.57 | -1.84% |
+| PANW | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $351.72 | 372.76 | 375.36 | -0.69% |
+| QCOM | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $162.08 | 174.51 | 176.47 | -1.11% |
+| ROST | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $230.59 | 231.09 | 231.29 | -0.09% |
+| FER | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | $57.15 | 53.73 | 52.93 | +1.51% |
+| FTNT | 🔴 Bearish ↓ | Daily close 29 Oct 2026 | 2 | $126.21 | 158.05 | 166.98 | -5.34% |
 
 **1W** — 6 bullish, 12 bearish
 
@@ -345,42 +346,49 @@ _+15 more - see the CSV._
 
 ### Crypto
 
-**15M** — 3 bullish, 0 bearish
+**15M** — 0 bullish, 5 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| XRP | 🟢 Bullish ↑ | 03 Nov 02:15 IST | 0 | $1.25 | 1.25 | 1.25 | +0.01% |
-| XMR | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 1 | $610.98 | 604.88 | 603.65 | +0.20% |
-| BCH | 🟢 Bullish ↑ | 03 Nov 01:45 IST | 2 | $277.90 | 276.71 | 276.34 | +0.13% |
+| COMP | 🔴 Bearish ↓ | 04 Nov 00:00 IST | 0 | $19.85 | 19.93 | 19.94 | -0.02% |
+| FLOW | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 2 | $0.02248 | 0.0225484 | 0.0225608 | -0.05% |
+| CRV | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 3 | $0.2605 | 0.262439 | 0.262905 | -0.18% |
+| FIL | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 3 | $0.8713 | 0.874426 | 0.875622 | -0.14% |
+| NEO | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 3 | $1.96 | 1.96 | 1.96 | -0.06% |
 
-**1H** — 0 bullish, 6 bearish
-
-| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
-|---|---|---|---|---|---|---|---|
-| IOTA | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 0 | $0.0389 | 0.0393583 | 0.039379 | -0.05% |
-| QNT | 🔴 Bearish ↓ | 03 Nov 00:30 IST | 1 | $194.89 | 198.84 | 199.29 | -0.22% |
-| Uniswap | 🔴 Bearish ↓ | 03 Nov 00:30 IST | 1 | $7.05 | 7.17 | 7.19 | -0.27% |
-| ETH | 🔴 Bearish ↓ | 02 Nov 23:30 IST | 2 | $2,254.18 | 2,270.29 | 2,275.07 | -0.21% |
-| XMR | 🔴 Bearish ↓ | 02 Nov 23:30 IST | 2 | $603.38 | 602.67 | 602.88 | -0.04% |
-| ZEC | 🔴 Bearish ↓ | 02 Nov 23:30 IST | 2 | $1,152.19 | 1,211.77 | 1,229.06 | -1.41% |
-
-**4H** — 0 bullish, 5 bearish
+**1H** — 9 bullish, 4 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| AAVE | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 0 | $127.31 | 132.42 | 132.83 | -0.31% |
-| EGLD | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 0 | $3.31 | 3.37 | 3.38 | -0.04% |
-| ETH | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 0 | $2,254.18 | 2,272.25 | 2,273.93 | -0.07% |
-| MKR | 🔴 Bearish ↓ | 02 Nov 21:30 IST | 1 | $1,476.93 | 1,529.10 | 1,534.97 | -0.38% |
-| Toncoin | 🔴 Bearish ↓ | 02 Nov 21:30 IST | 1 | $1.18 | 1.20 | 1.20 | -0.19% |
+| Aptos | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 0 | $0.615 | 0.618961 | 0.619335 | -0.06% |
+| DOT | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 0 | $0.936 | 0.938965 | 0.939221 | -0.03% |
+| HBAR | 🔴 Bearish ↓ | 03 Nov 22:30 IST | 1 | $0.06954 | 0.0698473 | 0.0698886 | -0.06% |
+| MKR | 🟢 Bullish ↑ | 03 Nov 21:30 IST | 2 | $1,505.64 | 1,497.61 | 1,495.62 | +0.13% |
+| VET | 🟢 Bullish ↑ | 03 Nov 21:30 IST | 2 | $0.005652 | 0.00564499 | 0.00564137 | +0.06% |
+| XLM | 🟢 Bullish ↑ | 03 Nov 21:30 IST | 2 | $0.1634 | 0.163801 | 0.163797 | +0.00% |
+| AXS | 🟢 Bullish ↑ | 03 Nov 20:30 IST | 3 | $0.848 | 0.842042 | 0.838816 | +0.38% |
+| BTC | 🟢 Bullish ↑ | 03 Nov 20:30 IST | 3 | $77,644.43 | 77,397.10 | 77,295.68 | +0.13% |
+| QNT | 🔴 Bearish ↓ | 03 Nov 20:30 IST | 3 | $194.35 | 195.35 | 195.69 | -0.17% |
+| SNX | 🟢 Bullish ↑ | 03 Nov 20:30 IST | 3 | $0.1765 | 0.176625 | 0.176425 | +0.11% |
+| SOL | 🟢 Bullish ↑ | 03 Nov 20:30 IST | 3 | $93.37 | 93.08 | 92.90 | +0.19% |
+| THETA | 🟢 Bullish ↑ | 03 Nov 20:30 IST | 3 | $0.1512 | 0.150911 | 0.150631 | +0.19% |
+| ZEC | 🟢 Bullish ↑ | 03 Nov 20:30 IST | 3 | $1,220.79 | 1,191.20 | 1,182.89 | +0.70% |
 
-**1D** — 2 bullish, 1 bearish
+**4H** — 3 bullish, 0 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| TRX | 🔴 Bearish ↓ | Daily close 31 Oct 2026 | 1 | $0.3132 | 0.325192 | 0.328479 | -1.00% |
-| BCH | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 2 | $284.40 | 284.57 | 284.28 | +0.10% |
-| ZEC | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 2 | $1,234.56 | 1,245.82 | 1,245.03 | +0.06% |
+| TRX | 🟢 Bullish ↑ | 03 Nov 21:30 IST | 0 | $0.3229 | 0.319666 | 0.319424 | +0.08% |
+| XRP | 🟢 Bullish ↑ | 03 Nov 21:30 IST | 0 | $1.28 | 1.26 | 1.26 | +0.01% |
+| Uniswap | 🟢 Bullish ↑ | 03 Nov 17:30 IST | 1 | $7.35 | 7.16 | 7.13 | +0.32% |
+
+**1D** — 0 bullish, 3 bearish
+
+| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
+|---|---|---|---|---|---|---|---|
+| BCH | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $276.40 | 283.08 | 283.53 | -0.16% |
+| ZEC | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $1,134.55 | 1,225.59 | 1,234.51 | -0.72% |
+| TRX | 🔴 Bearish ↓ | Daily close 31 Oct 2026 | 2 | $0.3195 | 0.324157 | 0.327624 | -1.06% |
 
 **1W** — 0 bullish, 10 bearish
 
@@ -399,33 +407,26 @@ _+15 more - see the CSV._
 
 ### Commodities (global proxy for MCX)
 
-**15M** — 0 bullish, 3 bearish
+**15M** — 1 bullish, 2 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| Gold (COMEX) | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $3,951.80 | 3,958.94 | 3,959.39 | -0.01% |
-| Platinum (NYMEX) | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $1,449.70 | 1,451.36 | 1,451.52 | -0.01% |
-| Copper (COMEX) | 🔴 Bearish ↓ | 03 Nov 01:15 IST | 3 | $6.55 | 6.55 | 6.55 | -0.03% |
+| Copper (COMEX) | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $6.40 | 6.40 | 6.40 | -0.02% |
+| Natural Gas (NYMEX) | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $2.88 | 2.89 | 2.89 | -0.02% |
+| Aluminium (COMEX) | 🟢 Bullish ↑ | 03 Nov 20:00 IST | 3 | $3,164.50 | 3,162.15 | 3,161.46 | +0.02% |
 
-**1H** — 0 bullish, 1 bearish
-
-| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
-|---|---|---|---|---|---|---|---|
-| Natural Gas (NYMEX) | 🔴 Bearish ↓ | 02 Nov 23:30 IST | 2 | $2.87 | 2.90 | 2.90 | -0.28% |
-
-**4H** — 0 bullish, 2 bearish
+**1H** — 1 bullish, 1 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| Brent Crude (ICE) | 🔴 Bearish ↓ | 02 Nov 16:30 IST | 2 | $104.61 | 109.19 | 110.15 | -0.86% |
-| Crude Oil WTI (NYMEX) | 🔴 Bearish ↓ | 02 Nov 16:30 IST | 2 | $96.17 | 100.23 | 101.07 | -0.83% |
+| Natural Gas (NYMEX) | 🔴 Bearish ↓ | 03 Nov 21:30 IST | 2 | $2.88 | 2.89 | 2.89 | -0.02% |
+| Gold (COMEX) | 🟢 Bullish ↑ | 03 Nov 20:30 IST | 3 | $3,942.60 | 3,940.26 | 3,939.10 | +0.03% |
 
-**1D** — 1 bullish, 1 bearish
+**1D** — 1 bullish, 0 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| Aluminium (COMEX) | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $3,310.50 | 3,252.23 | 3,241.33 | +0.34% |
-| Cotton (ICE US) | 🔴 Bearish ↓ | Daily close 28 Oct 2026 | 2 | $77.83 | 78.96 | 79.22 | -0.32% |
+| Aluminium (COMEX) | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | $3,314.75 | 3,263.59 | 3,248.32 | +0.47% |
 
 **1W** — 0 bullish, 1 bearish
 
@@ -435,195 +436,195 @@ _+15 more - see the CSV._
 
 ### S&P 500
 
-**15M** — 13 bullish, 31 bearish
+**15M** — 8 bullish, 38 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| APD | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $315.89 | 316.74 | 316.80 | -0.02% |
-| BEN | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $32.04 | 32.15 | 32.15 | -0.00% |
-| C | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $123.23 | 123.39 | 123.39 | -0.00% |
-| CASY | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 0 | $668.50 | 665.63 | 665.43 | +0.03% |
-| CNC | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 0 | $67.07 | 66.60 | 66.56 | +0.06% |
-| CTSH | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $65.45 | 65.78 | 65.79 | -0.01% |
-| DD | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $141.34 | 141.53 | 141.54 | -0.01% |
-| GD | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 0 | $372.68 | 371.28 | 371.26 | +0.00% |
-| HUM | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 0 | $409.00 | 406.83 | 406.67 | +0.04% |
-| ISRG | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $437.23 | 440.49 | 440.80 | -0.07% |
-| MRNA | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $221.39 | 223.58 | 223.70 | -0.05% |
-| NCLH | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $17.95 | 18.06 | 18.06 | -0.00% |
-| NOW | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $106.52 | 107.53 | 107.61 | -0.07% |
-| SKYD | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 0 | $8.09 | 8.03 | 8.02 | +0.07% |
-| WDAY | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $199.00 | 200.48 | 200.61 | -0.07% |
-| XYZ | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $77.47 | 77.74 | 77.76 | -0.03% |
-| AMT | 🟢 Bullish ↑ | 03 Nov 01:45 IST | 1 | $188.39 | 188.14 | 188.09 | +0.03% |
-| BMY | 🟢 Bullish ↑ | 03 Nov 01:45 IST | 1 | $62.85 | 62.65 | 62.61 | +0.06% |
-| CI | 🟢 Bullish ↑ | 03 Nov 01:45 IST | 1 | $295.91 | 295.94 | 295.91 | +0.01% |
-| DGX | 🟢 Bullish ↑ | 03 Nov 01:45 IST | 1 | $250.39 | 250.08 | 250.04 | +0.01% |
-| ECHO | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $98.31 | 98.57 | 98.64 | -0.06% |
-| FERG | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $241.50 | 242.04 | 242.16 | -0.05% |
-| IEX | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $236.22 | 237.48 | 237.67 | -0.08% |
+| CI | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $295.45 | 295.74 | 295.75 | -0.00% |
+| CMCSA | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $23.57 | 23.67 | 23.67 | -0.03% |
+| CTAS | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $223.81 | 223.95 | 223.96 | -0.00% |
+| EIX | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $59.34 | 59.46 | 59.47 | -0.01% |
+| ESS | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $264.34 | 264.47 | 264.48 | -0.00% |
+| IRM | 🟢 Bullish ↑ | 03 Nov 23:45 IST | 0 | $116.09 | 115.94 | 115.93 | +0.01% |
+| MCO | 🟢 Bullish ↑ | 03 Nov 23:45 IST | 0 | $504.73 | 503.70 | 503.60 | +0.02% |
+| MET | 🟢 Bullish ↑ | 03 Nov 23:45 IST | 0 | $100.84 | 100.79 | 100.79 | +0.00% |
+| PRU | 🟢 Bullish ↑ | 03 Nov 23:45 IST | 0 | $118.28 | 118.21 | 118.21 | +0.00% |
+| SNDK | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $1,113.62 | 1,115.97 | 1,116.09 | -0.01% |
+| TDG | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $1,202.42 | 1,209.58 | 1,210.02 | -0.04% |
+| TXT | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $87.74 | 87.95 | 87.95 | -0.00% |
+| UBER | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $66.56 | 66.69 | 66.70 | -0.02% |
+| WTW | 🔴 Bearish ↓ | 03 Nov 23:45 IST | 0 | $325.52 | 325.80 | 325.80 | -0.00% |
+| ALGN | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $152.69 | 153.18 | 153.27 | -0.06% |
+| BG | 🟢 Bullish ↑ | 03 Nov 23:30 IST | 1 | $95.38 | 94.48 | 94.33 | +0.17% |
+| BSX | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $43.73 | 43.88 | 43.90 | -0.04% |
+| DOV | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $214.38 | 215.03 | 215.15 | -0.06% |
+| EXE | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $89.50 | 89.88 | 89.96 | -0.09% |
+| HCA | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $467.18 | 467.19 | 467.20 | -0.00% |
+| HST | 🟢 Bullish ↑ | 03 Nov 23:30 IST | 1 | $25.65 | 25.63 | 25.63 | +0.01% |
 | KVUE | 🔴 Bearish ↓ | 31 Oct 01:15 IST | 1 | $19.27 | 19.44 | 19.46 | -0.15% |
-| MRK | 🟢 Bullish ↑ | 03 Nov 01:45 IST | 1 | $148.85 | 148.80 | 148.76 | +0.02% |
-| SNPS | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $469.11 | 470.07 | 470.39 | -0.07% |
-| TSLA | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $402.93 | 405.73 | 406.16 | -0.11% |
-| URI | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $1,181.36 | 1,183.83 | 1,184.21 | -0.03% |
-| XEL | 🔴 Bearish ↓ | 03 Nov 01:45 IST | 1 | $78.84 | 79.54 | 79.62 | -0.11% |
-| AXON | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $429.57 | 431.06 | 431.66 | -0.14% |
-| EMR | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $166.79 | 167.29 | 167.47 | -0.11% |
-| GEV | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $868.52 | 872.88 | 874.07 | -0.14% |
-| GS | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $901.45 | 903.49 | 904.19 | -0.08% |
-| HAS | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $119.04 | 119.07 | 119.08 | -0.01% |
-| LLY | 🟢 Bullish ↑ | 03 Nov 01:30 IST | 2 | $1,417.09 | 1,412.17 | 1,410.65 | +0.11% |
-| MS | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $186.00 | 186.06 | 186.11 | -0.03% |
-| TEL | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $216.71 | 216.88 | 217.06 | -0.08% |
-| TTWO | 🔴 Bearish ↓ | 03 Nov 01:30 IST | 2 | $192.77 | 193.16 | 193.27 | -0.06% |
-| ADI | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 3 | $418.10 | 420.02 | 421.07 | -0.25% |
-| APH | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 3 | $79.89 | 80.52 | 80.73 | -0.26% |
-
-_+4 more - see the CSV._
-
-**1H** — 21 bullish, 25 bearish
-
-| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
-|---|---|---|---|---|---|---|---|
-| CEG | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $258.73 | 261.53 | 261.64 | -0.04% |
-| CSX | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $51.48 | 51.73 | 51.76 | -0.05% |
-| EME | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $681.19 | 683.25 | 683.40 | -0.02% |
-| L | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 0 | $112.06 | 111.34 | 111.33 | +0.00% |
-| SWKS | 🔴 Bearish ↓ | 03 Nov 02:00 IST | 0 | $85.53 | 86.68 | 86.74 | -0.08% |
-| SYK | 🟢 Bullish ↑ | 03 Nov 02:00 IST | 0 | $306.53 | 302.69 | 302.42 | +0.09% |
-| ABBV | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 1 | $288.92 | 290.02 | 290.22 | -0.07% |
-| ALGN | 🟢 Bullish ↑ | 03 Nov 01:00 IST | 1 | $153.64 | 152.33 | 152.16 | +0.11% |
-| INVH | 🟢 Bullish ↑ | 03 Nov 01:00 IST | 1 | $26.91 | 26.77 | 26.76 | +0.06% |
-| IRM | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 1 | $115.27 | 115.97 | 116.05 | -0.07% |
-| LII | 🟢 Bullish ↑ | 03 Nov 01:00 IST | 1 | $353.63 | 348.74 | 348.02 | +0.21% |
-| MPC | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 1 | $434.07 | 437.14 | 437.80 | -0.15% |
-| NWSA | 🟢 Bullish ↑ | 03 Nov 01:00 IST | 1 | $29.69 | 29.59 | 29.57 | +0.08% |
-| ROK | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 1 | $441.21 | 441.34 | 441.54 | -0.05% |
-| SBAC | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 1 | $183.58 | 184.72 | 185.08 | -0.19% |
-| SYY | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 1 | $81.98 | 82.31 | 82.38 | -0.08% |
-| TDY | 🔴 Bearish ↓ | 03 Nov 01:00 IST | 1 | $659.82 | 660.69 | 660.83 | -0.02% |
-| TRV | 🟢 Bullish ↑ | 03 Nov 01:00 IST | 1 | $399.48 | 398.19 | 397.95 | +0.06% |
-| ZBH | 🟢 Bullish ↑ | 03 Nov 01:00 IST | 1 | $96.66 | 96.37 | 96.34 | +0.03% |
-| AMZN | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $247.26 | 246.94 | 246.64 | +0.12% |
-| ARE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $42.30 | 41.08 | 40.84 | +0.58% |
-| BIIB | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $249.23 | 250.57 | 250.99 | -0.17% |
-| BSX | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $44.12 | 43.43 | 43.22 | +0.48% |
-| CCI | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $86.88 | 87.45 | 87.67 | -0.25% |
-| COP | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $147.35 | 149.26 | 149.87 | -0.41% |
-| CVX | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $227.96 | 230.58 | 231.23 | -0.28% |
-| FANG | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $199.37 | 204.24 | 205.67 | -0.69% |
-| HAL | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $34.87 | 35.42 | 35.59 | -0.47% |
-| HCA | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $464.86 | 468.33 | 469.08 | -0.16% |
-| JBHT | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $224.10 | 223.23 | 222.85 | +0.17% |
-| ODFL | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $176.90 | 175.69 | 175.17 | +0.29% |
-| SOLV | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $84.66 | 83.56 | 83.22 | +0.41% |
-| UHS | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $178.70 | 177.20 | 176.93 | +0.15% |
-| VRT | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $226.20 | 230.46 | 231.73 | -0.55% |
-| VTRS | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $18.71 | 18.84 | 18.88 | -0.17% |
-| WDAY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 2 | $199.00 | 199.95 | 199.81 | +0.07% |
-| XOM | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 2 | $180.40 | 182.47 | 182.99 | -0.29% |
-| CTSH | 🟢 Bullish ↑ | 02 Nov 23:00 IST | 3 | $65.45 | 65.59 | 65.47 | +0.18% |
-| EL | 🔴 Bearish ↓ | 02 Nov 23:00 IST | 3 | $104.77 | 107.29 | 107.84 | -0.51% |
-| EOG | 🔴 Bearish ↓ | 02 Nov 23:00 IST | 3 | $158.00 | 160.37 | 161.29 | -0.57% |
+| MU | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $852.13 | 853.38 | 853.59 | -0.03% |
+| PPL | 🔴 Bearish ↓ | 03 Nov 23:30 IST | 1 | $35.91 | 35.95 | 35.95 | -0.01% |
+| BRO | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $70.75 | 71.01 | 71.07 | -0.09% |
+| CHTR | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $114.27 | 114.43 | 114.50 | -0.05% |
+| CRWD | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $245.92 | 246.29 | 246.44 | -0.06% |
+| DECK | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $84.29 | 84.26 | 84.27 | -0.01% |
+| DGX | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $248.65 | 249.92 | 250.14 | -0.09% |
+| EG | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $416.05 | 416.20 | 416.29 | -0.02% |
+| GPN | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $98.88 | 98.73 | 98.74 | -0.01% |
+| LRCX | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $230.88 | 231.52 | 231.72 | -0.09% |
+| MRSH | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $203.98 | 204.42 | 204.56 | -0.07% |
+| MSFT | 🟢 Bullish ↑ | 03 Nov 23:15 IST | 2 | $520.97 | 517.82 | 516.99 | +0.16% |
+| NWS | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $32.18 | 32.27 | 32.29 | -0.08% |
+| ORLY | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $90.22 | 90.20 | 90.20 | -0.00% |
+| WM | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $235.87 | 236.10 | 236.15 | -0.02% |
+| WST | 🔴 Bearish ↓ | 03 Nov 23:15 IST | 2 | $411.47 | 411.80 | 411.88 | -0.02% |
+| AON | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 3 | $329.03 | 330.03 | 330.45 | -0.13% |
+| CMS | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 3 | $70.31 | 70.37 | 70.40 | -0.04% |
 
 _+6 more - see the CSV._
 
-**4H** — 38 bullish, 26 bearish
+**1H** — 31 bullish, 28 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| ADBE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $254.75 | 251.70 | 251.58 | +0.05% |
-| AKAM | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $89.17 | 94.59 | 95.12 | -0.55% |
-| AMP | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $501.38 | 493.90 | 493.58 | +0.07% |
-| APH | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $81.39 | 79.73 | 79.60 | +0.17% |
-| APTV | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $44.77 | 44.13 | 44.09 | +0.10% |
-| CASY | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $660.33 | 679.27 | 680.10 | -0.12% |
-| CBRE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $137.78 | 128.86 | 128.49 | +0.29% |
-| CPAY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $411.56 | 401.79 | 401.66 | +0.03% |
-| EXPE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $296.49 | 285.33 | 284.34 | +0.35% |
-| FSLR | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $183.97 | 176.08 | 175.40 | +0.39% |
-| GNRC | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $204.28 | 198.69 | 198.31 | +0.19% |
-| IQV | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $262.18 | 270.22 | 270.76 | -0.20% |
-| LVS | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $38.16 | 36.97 | 36.91 | +0.16% |
-| MGM | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $30.74 | 29.11 | 28.97 | +0.50% |
-| NDSN | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $327.90 | 325.51 | 325.34 | +0.05% |
-| ORCL | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $121.80 | 130.99 | 131.55 | -0.42% |
-| ORLY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $90.24 | 89.28 | 89.19 | +0.11% |
-| PANW | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $362.77 | 374.68 | 375.68 | -0.27% |
-| PLD | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $129.61 | 127.66 | 127.46 | +0.15% |
-| SHW | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $351.61 | 333.92 | 332.53 | +0.42% |
-| TGT | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $157.91 | 152.76 | 152.56 | +0.13% |
-| VZ | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $44.94 | 44.26 | 44.21 | +0.12% |
-| WAB | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $286.89 | 282.66 | 282.45 | +0.07% |
-| WDC | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 0 | $345.92 | 370.85 | 371.96 | -0.30% |
-| WYNN | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 0 | $78.18 | 74.64 | 74.61 | +0.04% |
-| AES | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $14.88 | 14.94 | 14.96 | -0.09% |
-| AME | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $244.97 | 245.67 | 245.94 | -0.11% |
-| DG | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $135.94 | 131.18 | 130.63 | +0.42% |
-| DOC | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $19.27 | 19.01 | 18.98 | +0.17% |
-| HONA | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $160.27 | 161.56 | 162.44 | -0.54% |
-| ILMN | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $228.62 | 259.96 | 266.06 | -2.29% |
-| NVR | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $6,253.24 | 5,973.00 | 5,939.92 | +0.56% |
-| PAYX | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $115.70 | 112.09 | 111.65 | +0.39% |
-| PWR | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $620.36 | 611.75 | 609.91 | +0.30% |
-| Q | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $116.96 | 117.91 | 118.09 | -0.16% |
-| QCOM | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $166.07 | 173.92 | 175.68 | -1.00% |
-| RMD | 🔴 Bearish ↓ | 31 Oct 01:30 IST | 1 | $232.33 | 242.21 | 243.54 | -0.54% |
-| SKYD | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $8.04 | 7.81 | 7.79 | +0.36% |
-| WELL | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $236.87 | 233.82 | 233.44 | +0.16% |
-| WRB | 🟢 Bullish ↑ | 31 Oct 01:30 IST | 1 | $74.81 | 73.50 | 73.33 | +0.23% |
-
-_+24 more - see the CSV._
-
-**1D** — 30 bullish, 29 bearish
-
-| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
-|---|---|---|---|---|---|---|---|
-| AME | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $241.12 | 245.84 | 246.16 | -0.13% |
-| BAX | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $23.00 | 24.47 | 24.55 | -0.30% |
-| CARR | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $53.63 | 55.68 | 55.78 | -0.18% |
-| CFG | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $63.81 | 64.73 | 64.75 | -0.04% |
-| CMCSA | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $23.22 | 22.23 | 22.17 | +0.27% |
-| CVNA | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $68.29 | 62.13 | 61.91 | +0.34% |
-| DDOG | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $235.27 | 264.58 | 265.26 | -0.25% |
-| DLR | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $180.70 | 178.05 | 177.91 | +0.07% |
-| FOX | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $56.20 | 57.46 | 57.48 | -0.03% |
-| GM | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $87.40 | 82.00 | 81.58 | +0.52% |
-| GPN | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $96.84 | 85.97 | 84.85 | +1.32% |
-| GRMN | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $272.67 | 282.47 | 283.09 | -0.22% |
-| HPQ | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $28.78 | 31.71 | 31.72 | -0.04% |
-| INCY | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $120.39 | 116.38 | 116.30 | +0.06% |
-| INVH | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $26.56 | 26.90 | 26.92 | -0.09% |
-| IR | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $80.05 | 77.36 | 77.09 | +0.35% |
-| MRK | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $149.52 | 145.28 | 145.23 | +0.04% |
-| NDSN | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $322.67 | 324.94 | 325.09 | -0.05% |
-| NOW | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $105.12 | 136.70 | 139.82 | -2.23% |
-| NWS | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $31.74 | 32.59 | 32.64 | -0.14% |
-| PANW | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $365.87 | 377.44 | 377.85 | -0.11% |
-| PCG | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $13.18 | 13.05 | 13.05 | +0.02% |
-| QCOM | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $164.79 | 177.27 | 177.99 | -0.40% |
-| ROST | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $228.28 | 231.20 | 231.36 | -0.07% |
-| TSCO | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 0 | $33.94 | 33.08 | 33.00 | +0.26% |
-| UHS | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 0 | $176.05 | 179.49 | 179.80 | -0.17% |
-| BMY | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $62.48 | 61.30 | 61.14 | +0.25% |
-| BNY | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $147.11 | 146.58 | 146.36 | +0.15% |
-| BSX | 🔴 Bearish ↓ | Daily close 29 Oct 2026 | 1 | $41.98 | 43.74 | 43.96 | -0.50% |
-| BX | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $118.51 | 116.41 | 115.81 | +0.51% |
-| BXP | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $62.80 | 61.42 | 61.15 | +0.45% |
-| CPAY | 🔴 Bearish ↓ | Daily close 29 Oct 2026 | 1 | $400.94 | 401.08 | 401.32 | -0.06% |
-| ECHO | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $96.94 | 92.57 | 91.76 | +0.89% |
-| FRT | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $110.19 | 108.82 | 108.46 | +0.34% |
-| FTNT | 🔴 Bearish ↓ | Daily close 29 Oct 2026 | 1 | $136.08 | 165.13 | 171.27 | -3.58% |
-| GEN | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $29.13 | 25.72 | 25.12 | +2.43% |
-| HSY | 🔴 Bearish ↓ | Daily close 29 Oct 2026 | 1 | $165.61 | 165.75 | 166.21 | -0.28% |
-| IRM | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $116.55 | 114.75 | 114.18 | +0.50% |
-| JPM | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $337.04 | 337.02 | 336.95 | +0.02% |
-| KKR | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 1 | $94.39 | 92.34 | 92.11 | +0.25% |
+| APO | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $113.27 | 116.87 | 117.23 | -0.31% |
+| BX | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $118.16 | 119.44 | 119.46 | -0.02% |
+| ETN | 🟢 Bullish ↑ | 03 Nov 23:00 IST | 0 | $387.31 | 378.94 | 378.46 | +0.13% |
+| FLEX | 🟢 Bullish ↑ | 03 Nov 23:00 IST | 0 | $89.55 | 87.78 | 87.70 | +0.08% |
+| LH | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $354.54 | 356.61 | 356.70 | -0.02% |
+| LULU | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $107.16 | 107.28 | 107.29 | -0.01% |
+| MAA | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $117.38 | 117.80 | 117.82 | -0.02% |
+| MCHP | 🟢 Bullish ↑ | 03 Nov 23:00 IST | 0 | $79.69 | 78.50 | 78.39 | +0.15% |
+| MRK | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $144.79 | 147.04 | 147.13 | -0.06% |
+| SCHW | 🟢 Bullish ↑ | 03 Nov 23:00 IST | 0 | $89.27 | 88.91 | 88.90 | +0.01% |
+| TSLA | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $397.36 | 402.20 | 402.45 | -0.06% |
+| ULTA | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $629.99 | 634.39 | 634.76 | -0.06% |
+| VRT | 🟢 Bullish ↑ | 03 Nov 23:00 IST | 0 | $235.47 | 232.66 | 232.53 | +0.06% |
+| VRTX | 🔴 Bearish ↓ | 03 Nov 23:00 IST | 0 | $536.32 | 547.08 | 547.50 | -0.08% |
+| AME | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $249.64 | 247.44 | 246.73 | +0.29% |
+| CHRW | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $130.79 | 128.66 | 128.26 | +0.31% |
+| EBAY | 🔴 Bearish ↓ | 03 Nov 22:00 IST | 1 | $120.04 | 120.75 | 120.92 | -0.14% |
+| FOX | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $59.85 | 57.53 | 57.11 | +0.73% |
+| FOXA | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $67.61 | 64.89 | 64.37 | +0.80% |
+| INVH | 🔴 Bearish ↓ | 03 Nov 22:00 IST | 1 | $26.55 | 26.70 | 26.72 | -0.08% |
+| JPM | 🔴 Bearish ↓ | 03 Nov 22:00 IST | 1 | $336.62 | 338.96 | 339.29 | -0.10% |
+| LDOS | 🔴 Bearish ↓ | 03 Nov 22:00 IST | 1 | $138.30 | 141.00 | 141.33 | -0.24% |
+| MTD | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $1,698.66 | 1,690.96 | 1,689.91 | +0.06% |
+| NFLX | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $62.66 | 62.41 | 62.38 | +0.06% |
+| NRG | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $98.27 | 96.55 | 96.24 | +0.32% |
+| PTC | 🔴 Bearish ↓ | 03 Nov 22:00 IST | 1 | $194.36 | 194.57 | 194.62 | -0.02% |
+| Q | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $121.07 | 118.69 | 118.41 | +0.24% |
+| RVTY | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $168.99 | 160.84 | 159.88 | +0.60% |
+| TECH | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $72.70 | 72.69 | 72.69 | +0.00% |
+| TEL | 🟢 Bullish ↑ | 03 Nov 22:00 IST | 1 | $218.63 | 218.25 | 218.09 | +0.07% |
+| ADBE | 🔴 Bearish ↓ | 03 Nov 21:00 IST | 2 | $247.48 | 249.64 | 250.27 | -0.25% |
+| ADI | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $428.17 | 423.50 | 422.15 | +0.32% |
+| APTV | 🔴 Bearish ↓ | 03 Nov 21:00 IST | 2 | $42.49 | 43.55 | 43.85 | -0.69% |
+| AXON | 🔴 Bearish ↓ | 03 Nov 21:00 IST | 2 | $418.79 | 425.20 | 426.91 | -0.40% |
+| BAX | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $24.77 | 24.18 | 24.05 | +0.57% |
+| BNY | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $149.54 | 148.55 | 148.29 | +0.17% |
+| CARR | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $55.24 | 55.05 | 54.92 | +0.24% |
+| CEG | 🟢 Bullish ↑ | 03 Nov 21:00 IST | 2 | $265.90 | 263.04 | 262.43 | +0.23% |
+| CF | 🔴 Bearish ↓ | 03 Nov 21:00 IST | 2 | $118.94 | 119.73 | 119.97 | -0.20% |
+| CTSH | 🔴 Bearish ↓ | 03 Nov 21:00 IST | 2 | $64.02 | 64.70 | 64.99 | -0.44% |
 
 _+19 more - see the CSV._
 
-**1W** — 39 bullish, 21 bearish
+**4H** — 36 bullish, 23 bearish
+
+| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
+|---|---|---|---|---|---|---|---|
+| AAPL | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $339.06 | 343.52 | 343.80 | -0.08% |
+| CDW | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $150.48 | 156.09 | 156.51 | -0.27% |
+| CI | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $295.23 | 298.16 | 298.46 | -0.10% |
+| COR | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $337.85 | 332.52 | 332.09 | +0.13% |
+| CRWD | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $241.84 | 252.33 | 252.52 | -0.08% |
+| DECK | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $85.04 | 83.01 | 82.93 | +0.10% |
+| DXCM | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $84.77 | 81.80 | 81.60 | +0.25% |
+| HIG | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $135.53 | 133.73 | 133.71 | +0.02% |
+| HSY | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $171.29 | 166.90 | 166.68 | +0.13% |
+| JCI | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $146.47 | 150.43 | 150.62 | -0.13% |
+| KMI | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $32.73 | 33.51 | 33.56 | -0.14% |
+| MOS | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $19.02 | 18.46 | 18.43 | +0.16% |
+| OXY | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $60.72 | 62.49 | 62.53 | -0.05% |
+| RVTY | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $151.66 | 158.11 | 158.27 | -0.10% |
+| TMUS | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $160.15 | 154.05 | 153.51 | +0.35% |
+| UNH | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $400.45 | 406.11 | 406.51 | -0.10% |
+| VTR | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $86.73 | 85.00 | 84.87 | +0.15% |
+| WDAY | 🔴 Bearish ↓ | 03 Nov 02:30 IST | 0 | $198.14 | 200.21 | 200.26 | -0.03% |
+| XYZ | 🟢 Bullish ↑ | 03 Nov 02:30 IST | 0 | $77.07 | 76.59 | 76.59 | +0.01% |
+| ADBE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $251.46 | 251.66 | 251.57 | +0.03% |
+| AKAM | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 1 | $86.73 | 93.16 | 94.32 | -1.22% |
+| AMP | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $504.46 | 495.82 | 494.62 | +0.24% |
+| APH | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $79.84 | 79.75 | 79.62 | +0.16% |
+| APTV | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $44.21 | 44.15 | 44.10 | +0.10% |
+| CASY | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 1 | $668.15 | 677.25 | 678.96 | -0.25% |
+| CBRE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $136.72 | 130.29 | 129.27 | +0.79% |
+| CPAY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $409.27 | 403.15 | 402.38 | +0.19% |
+| EXPE | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $299.07 | 287.83 | 285.74 | +0.73% |
+| FSLR | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $182.10 | 177.18 | 176.04 | +0.65% |
+| GNRC | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $201.94 | 199.28 | 198.66 | +0.31% |
+| IQV | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 1 | $258.29 | 268.05 | 269.57 | -0.56% |
+| LVS | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $38.19 | 37.19 | 37.03 | +0.43% |
+| MGM | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $30.55 | 29.38 | 29.12 | +0.88% |
+| NDSN | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $327.55 | 325.88 | 325.55 | +0.10% |
+| ORCL | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 1 | $119.12 | 128.84 | 130.36 | -1.17% |
+| ORLY | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $90.70 | 89.54 | 89.33 | +0.23% |
+| PANW | 🔴 Bearish ↓ | 03 Nov 00:00 IST | 1 | $351.81 | 370.52 | 373.40 | -0.77% |
+| PLD | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $129.65 | 128.02 | 127.67 | +0.27% |
+| SHW | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $352.40 | 337.28 | 334.42 | +0.85% |
+| TGT | 🟢 Bullish ↑ | 03 Nov 00:00 IST | 1 | $158.46 | 153.80 | 153.12 | +0.44% |
+
+_+19 more - see the CSV._
+
+**1D** — 37 bullish, 25 bearish
+
+| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
+|---|---|---|---|---|---|---|---|
+| CPAY | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $409.29 | 402.57 | 402.08 | +0.12% |
+| CRM | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $226.18 | 236.28 | 237.23 | -0.40% |
+| DAL | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $83.42 | 80.36 | 80.15 | +0.26% |
+| DE | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $667.60 | 654.02 | 653.59 | +0.07% |
+| DECK | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $85.00 | 82.95 | 82.88 | +0.08% |
+| DLR | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $175.95 | 177.67 | 177.73 | -0.03% |
+| FDXF | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $131.85 | 116.21 | 114.70 | +1.32% |
+| FOXA | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $62.76 | 64.22 | 64.30 | -0.13% |
+| GIS | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $34.75 | 33.76 | 33.66 | +0.31% |
+| HSIC | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $86.62 | 85.41 | 85.37 | +0.05% |
+| HSY | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $171.25 | 166.75 | 166.69 | +0.04% |
+| ILMN | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $226.58 | 262.28 | 264.32 | -0.77% |
+| MKC | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $48.82 | 47.32 | 47.18 | +0.29% |
+| MTB | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $224.43 | 221.41 | 221.10 | +0.14% |
+| NDSN | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $327.58 | 325.42 | 325.33 | +0.03% |
+| NTAP | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $185.26 | 210.36 | 213.00 | -1.24% |
+| NVR | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $6,265.10 | 5,976.24 | 5,975.72 | +0.01% |
+| P | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $113.78 | 129.31 | 130.41 | -0.84% |
+| PLTR | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $178.34 | 191.80 | 192.83 | -0.53% |
+| TKO | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $185.14 | 177.95 | 177.94 | +0.01% |
+| WY | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | $21.29 | 19.90 | 19.78 | +0.61% |
+| ZBRA | 🔴 Bearish ↓ | Daily close 02 Nov 2026 | 0 | $361.13 | 375.08 | 376.09 | -0.27% |
+| AME | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $241.91 | 245.13 | 245.75 | -0.25% |
+| BAX | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $24.22 | 24.43 | 24.51 | -0.36% |
+| CARR | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $55.17 | 55.59 | 55.72 | -0.25% |
+| CFG | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $64.93 | 64.76 | 64.77 | -0.01% |
+| CMCSA | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $23.87 | 22.53 | 22.33 | +0.88% |
+| CVNA | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $72.00 | 63.92 | 62.87 | +1.67% |
+| DDOG | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $216.10 | 255.77 | 260.57 | -1.84% |
+| FOX | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $55.96 | 57.19 | 57.33 | -0.25% |
+| GM | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $89.94 | 83.44 | 82.37 | +1.30% |
+| GPN | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $99.63 | 88.45 | 86.26 | +2.55% |
+| GRMN | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $274.29 | 280.99 | 282.26 | -0.45% |
+| HPQ | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $28.43 | 31.11 | 31.41 | -0.94% |
+| INCY | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $120.04 | 117.04 | 116.66 | +0.33% |
+| INVH | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $26.86 | 26.89 | 26.92 | -0.09% |
+| IR | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $82.73 | 78.33 | 77.62 | +0.91% |
+| MRK | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | $148.36 | 145.84 | 145.52 | +0.22% |
+| NOW | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $106.01 | 131.12 | 136.60 | -4.01% |
+| NWS | 🔴 Bearish ↓ | Daily close 30 Oct 2026 | 1 | $32.46 | 32.57 | 32.62 | -0.16% |
+
+_+22 more - see the CSV._
+
+**1W** — 38 bullish, 21 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
@@ -668,57 +669,63 @@ _+19 more - see the CSV._
 | ED | 🟢 Bullish ↑ | Week ending 23 Oct 2026 | 1 | $116.64 | 110.25 | 109.23 | +0.94% |
 | GEHC | 🟢 Bullish ↑ | Week ending 23 Oct 2026 | 1 | $76.57 | 69.50 | 68.75 | +1.10% |
 
-_+20 more - see the CSV._
+_+19 more - see the CSV._
 
 ### Indian Indices
 
-**15M** — 4 bullish, 1 bearish
+**15M** — 0 bullish, 2 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| India VIX | 🔴 Bearish ↓ | 02 Nov 15:30 IST | 0 | 15.43 | 15.60 | 15.61 | -0.08% |
-| Nifty Bank | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | 55,002.20 | 54,839.82 | 54,818.20 | +0.04% |
-| Nifty FMCG | 🟢 Bullish ↑ | 02 Nov 15:15 IST | 1 | 43,974.85 | 43,797.01 | 43,776.50 | +0.05% |
-| Nifty Financial Services | 🟢 Bullish ↑ | 02 Nov 15:00 IST | 2 | 24,899.05 | 24,814.70 | 24,800.60 | +0.06% |
-| Nifty Realty | 🟢 Bullish ↑ | 02 Nov 15:00 IST | 2 | 822.60 | 819.84 | 819.25 | +0.07% |
+| Nifty Smallcap 100 | 🔴 Bearish ↓ | 03 Nov 15:30 IST | 0 | 18,637.65 | 18,668.20 | 18,669.63 | -0.01% |
+| India VIX | 🔴 Bearish ↓ | 03 Nov 15:00 IST | 2 | 15.65 | 15.82 | 15.85 | -0.19% |
 
-**1H** — 0 bullish, 1 bearish
+**1H** — 1 bullish, 1 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| Nifty Media | 🔴 Bearish ↓ | 02 Nov 13:15 IST | 3 | 1,625.65 | 1,626.40 | 1,628.14 | -0.11% |
+| India VIX | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 3 | 15.67 | 15.79 | 15.77 | +0.12% |
+| Nifty Media | 🔴 Bearish ↓ | 03 Nov 13:15 IST | 3 | 1,625.10 | 1,628.20 | 1,628.88 | -0.04% |
 
-**4H** — 9 bullish, 0 bearish
-
-| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
-|---|---|---|---|---|---|---|---|
-| Nifty 50 | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 0 | 23,219.85 | 22,865.70 | 22,849.38 | +0.07% |
-| Nifty Energy | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | 36,344.35 | 35,441.13 | 35,428.59 | +0.04% |
-| Nifty Metal | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | 12,163.85 | 11,896.74 | 11,890.15 | +0.06% |
-| Nifty Next 50 | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | 68,967.95 | 67,937.58 | 67,829.80 | +0.16% |
-| Nifty PSE | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 0 | 9,288.15 | 9,119.58 | 9,102.04 | +0.19% |
-| Nifty 500 | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | 22,242.25 | 21,933.33 | 21,883.64 | +0.23% |
-| Nifty Commodities | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | 9,327.65 | 9,054.19 | 9,012.11 | +0.47% |
-| Nifty Realty | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | 822.60 | 811.79 | 810.12 | +0.21% |
-| Sensex | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 1 | 75,046.69 | 73,862.13 | 73,675.23 | +0.25% |
-
-**1D** — 5 bullish, 0 bearish
+**4H** — 14 bullish, 0 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| Nifty 50 | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | 23,440.80 | 22,937.69 | 22,902.48 | +0.15% |
-| Nifty Infrastructure | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 0 | 9,124.95 | 8,780.94 | 8,758.52 | +0.26% |
-| Nifty Pharma | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | 27,105.00 | 26,438.71 | 26,301.88 | +0.52% |
-| Sensex | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 1 | 75,692.78 | 74,069.74 | 73,829.28 | +0.33% |
-| Nifty PSU Bank | 🟢 Bullish ↑ | Daily close 29 Oct 2026 | 2 | 8,346.95 | 8,211.57 | 8,190.26 | +0.26% |
+| Nifty MNC | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | 29,492.15 | 28,829.73 | 28,775.45 | +0.19% |
+| Nifty Midcap 150 | 🟢 Bullish ↑ | 03 Nov 15:30 IST | 0 | 21,522.90 | 21,261.10 | 21,237.14 | +0.11% |
+| Nifty 50 | 🟢 Bullish ↑ | 02 Nov 13:15 IST | 1 | 23,697.55 | 23,016.95 | 22,930.39 | +0.38% |
+| Nifty Bank | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | 55,540.05 | 54,977.95 | 54,873.58 | +0.19% |
+| Nifty FMCG | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | 45,580.05 | 44,087.36 | 43,849.26 | +0.54% |
+| Nifty Financial Services | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | 25,357.90 | 24,899.89 | 24,800.42 | +0.40% |
+| Nifty Midcap 100 | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | 58,598.05 | 57,842.30 | 57,754.01 | +0.15% |
+| Nifty Midcap 50 | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | 16,908.30 | 16,667.26 | 16,623.37 | +0.26% |
+| Nifty Private Bank | 🟢 Bullish ↑ | 03 Nov 13:15 IST | 1 | 27,551.10 | 27,121.26 | 27,041.93 | +0.29% |
+| Nifty Energy | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 2 | 36,282.55 | 35,716.59 | 35,581.94 | +0.38% |
+| Nifty Metal | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 2 | 12,147.20 | 11,975.56 | 11,934.48 | +0.34% |
+| Nifty Next 50 | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 2 | 69,623.45 | 68,473.04 | 68,142.52 | +0.49% |
+| Nifty PSE | 🟢 Bullish ↑ | 02 Nov 15:30 IST | 2 | 9,299.95 | 9,176.97 | 9,136.64 | +0.44% |
+| Sensex | 🟢 Bullish ↑ | 30 Oct 13:15 IST | 2 | 76,622.43 | 74,364.00 | 73,956.73 | +0.55% |
+
+**1D** — 8 bullish, 0 bearish
+
+| Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
+|---|---|---|---|---|---|---|---|
+| Nifty 100 | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | 24,739.50 | 24,042.07 | 23,969.51 | +0.30% |
+| Nifty 200 | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | 13,582.10 | 13,237.79 | 13,227.30 | +0.08% |
+| Nifty Consumption | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | 11,458.95 | 11,082.55 | 11,060.01 | +0.20% |
+| Nifty Private Bank | 🟢 Bullish ↑ | Daily close 03 Nov 2026 | 0 | 27,551.10 | 27,069.70 | 27,060.79 | +0.03% |
+| Nifty 50 | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | 23,810.85 | 23,096.45 | 22,988.99 | +0.47% |
+| Nifty Infrastructure | 🟢 Bullish ↑ | Daily close 02 Nov 2026 | 1 | 9,225.40 | 8,861.75 | 8,802.98 | +0.67% |
+| Nifty Pharma | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 2 | 27,218.50 | 26,580.49 | 26,389.17 | +0.72% |
+| Sensex | 🟢 Bullish ↑ | Daily close 30 Oct 2026 | 2 | 76,917.85 | 74,587.58 | 74,123.43 | +0.63% |
 
 **1W** — 2 bullish, 1 bearish
 
 | Symbol | Cross | Candle closed | Bars ago | Close | EMA 10 | EMA 20 | Gap |
 |---|---|---|---|---|---|---|---|
-| Nifty Smallcap 250 | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | 16,764.55 | 17,479.49 | 17,540.66 | -0.35% |
+| Nifty Smallcap 250 | 🔴 Bearish ↓ | Week ending 30 Oct 2026 | 0 | 16,764.55 | 17,479.49 | 17,540.69 | -0.35% |
 | India VIX | 🟢 Bullish ↑ | Week ending 23 Oct 2026 | 1 | 15.30 | 14.01 | 13.83 | +1.33% |
-| Nifty IT | 🟢 Bullish ↑ | Week ending 23 Oct 2026 | 1 | 32,606.90 | 30,542.51 | 30,229.38 | +1.04% |
+| Nifty IT | 🟢 Bullish ↑ | Week ending 23 Oct 2026 | 1 | 32,606.90 | 30,542.51 | 30,229.34 | +1.04% |
 
 ## 3. Data coverage
 
@@ -728,10 +735,10 @@ _+20 more - see the CSV._
 | Nasdaq 100 | 101 | 101 symbols (saved copy from 2026-11-01) | none | 2 |
 | Crypto | 48 | 48 symbols (from config.yaml) | none | 1 |
 | Commodities (global proxy for MCX) | 10 | 10 symbols (from config.yaml) | none | 0 |
-| S&P 500 | 503 | 503 symbols (saved copy from 2026-11-01) | none | 4 |
+| S&P 500 | 503 | 503 symbols (saved copy from 2026-11-01) | none | 5 |
 | Indian Indices | 30 | 30 symbols (from config.yaml) | none | 0 |
 
-Candle sets delivered: Tradingview 3273, Yahoo 38.
+Candle sets delivered: TradingView 3273, Yahoo 38.
 
 **Not recognised by TradingView** (fix the code in config.yaml or ignore): BAGMANE.NS, BIRET.NS, DUMMYHEG.NS, EMBASSY.NS
 
@@ -739,4 +746,4 @@ Candle sets delivered: Tradingview 3273, Yahoo 38.
 
 - Signals use closed candles only (same as TradingView alert 'once per bar close').
 - Candles come from TradingView's free anonymous feed, which is **delayed about 15 minutes** for NSE, US and MCX (crypto is live). Yahoo is the backup when TradingView is unavailable.
-- MCX symbols are TradingView continuous front-month contracts (1!); prices jump when a contract rolls over.
+- Commodities are **global futures proxies** (COMEX/NYMEX/ICE from Yahoo), not MCX prices.

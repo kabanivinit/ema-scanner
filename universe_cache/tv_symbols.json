@@ -1,12 +1,12 @@
 {
  "bad": {
-  "BAGMANE.NS": "2026-11-01",
-  "BIRET.NS": "2026-11-01",
-  "DUMMYHEG.NS": "2026-11-01",
-  "EMBASSY.NS": "2026-11-01",
-  "EOS-USD": "2026-11-01",
+  "BAGMANE.NS": "2026-11-03",
+  "BIRET.NS": "2026-11-03",
+  "DUMMYHEG.NS": "2026-11-03",
+  "EMBASSY.NS": "2026-11-03",
+  "EOS-USD": "2026-11-03",
   "KVUE": "2026-11-02",
-  "MKR-USD": "2026-11-01"
+  "MKR-USD": "2026-11-03"
  },
  "winners": {
   "360ONE.NS": "NSE:360ONE",
@@ -899,6 +899,7 @@
   "SPCX": "NASDAQ:SPCX",
   "SPG": "NYSE:SPG",
   "SPGI": "NYSE:SPGI",
+  "SPY": "AMEX:SPY",
   "SRE": "NYSE:SRE",
   "SRF.NS": "NSE:SRF",
   "STARHEALTH.NS": "NSE:STARHEALTH",
