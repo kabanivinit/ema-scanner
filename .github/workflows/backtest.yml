@@ -1,0 +1,106 @@
+name: "3 - Backtest"
+
+# Replays the crossover rule over the last years on every timeframe and tells you which timeframe worked best.
+# Run it by hand: Actions tab -> "3 - Backtest" -> Run workflow. It takes roughly 1-3 hours and sends the answer
+# to Telegram when it is done (a quick test with "limit" set to 5 takes a few minutes).
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Optional - test only these groups, e.g. nifty500,crypto (empty = everything)"
+        required: false
+        default: ""
+      years:
+        description: "Years of history to test"
+        required: false
+        default: "3"
+      limit:
+        description: "Optional quick test - only the first N securities of each group (empty = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+# Its own queue, so a long backtest never holds up the 15-minute scans.
+concurrency:
+  group: ema-backtest
+  cancel-in-progress: false
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      # Only does something if you uploaded ema-scanner.zip to the repository instead of the folders.
+      - name: Unpack the scanner (needed only if you uploaded the .zip file)
+        run: |
+          python3 - <<'PY'
+          import glob, os, zipfile
+          for z in sorted(glob.glob("*.zip")):
+              with zipfile.ZipFile(z) as f:
+                  names = f.namelist()
+                  marker = next((n for n in names if n.endswith("scanner/__main__.py")), None)
+                  if marker is None:
+                      continue
+                  prefix = marker[: -len("scanner/__main__.py")]
+                  for name in names:
+                      rel = name[len(prefix):]
+                      if not name.startswith(prefix) or not rel or rel.endswith("/") or ".." in rel.split("/"):
+                          continue
+                      if rel.startswith(".github/") or (rel == "config.yaml" and os.path.exists(rel)):
+                          continue          # workflows stay as you pasted them; your own settings file always wins
+                      os.makedirs(os.path.dirname(rel) or ".", exist_ok=True)
+                      with open(rel, "wb") as out:
+                          out.write(f.read(name))
+              print("Unpacked", z)
+          PY
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install tools
+        run: pip install -r requirements.txt
+
+      # Read only: reuses what the scanner already learned about symbol names. Nothing is saved back.
+      - name: Restore the symbol memory
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            state
+            universe_cache
+          key: ema-state-${{ github.run_id }}
+          restore-keys: |
+            ema-state-
+
+      - name: Run the backtest and send the results to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BT_ONLY: ${{ github.event.inputs.only }}
+          BT_YEARS: ${{ github.event.inputs.years }}
+          BT_LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          args=""
+          if [ -n "$BT_ONLY" ]; then args="$args --only $BT_ONLY"; fi
+          if [ -n "$BT_YEARS" ]; then args="$args --years $BT_YEARS"; fi
+          if [ -n "$BT_LIMIT" ]; then args="$args --limit $BT_LIMIT"; fi
+          python -m scanner backtest $args
+
+      - name: Keep a copy of the results in the repository
+        if: ${{ always() }}
+        run: |
+          git config user.name "ema-scanner-bot"
+          git config user.email "ema-scanner-bot@users.noreply.github.com"
+          git add reports/backtest 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "Backtest results $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
