@@ -1,0 +1,91 @@
+name: "4 - Fyers Login"
+
+# Run this twice (about every 15 days):
+#   1st time: leave the box EMPTY -> the bot sends you a Fyers login link on Telegram.
+#   Log in at Fyers, copy the full web address you land on, then run this again and paste that address into the box.
+
+on:
+  workflow_dispatch:
+    inputs:
+      login_address:
+        description: "EMPTY = send me the Fyers login link on Telegram.  Otherwise paste the full web address you landed on after logging in."
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ema-scanner
+  cancel-in-progress: false
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # Only does something if you uploaded ema-scanner.zip to the repository instead of the folders.
+      - name: Unpack the scanner (needed only if you uploaded the .zip file)
+        run: |
+          python3 - <<'PY'
+          import glob, os, zipfile
+          for z in sorted(glob.glob("*.zip")):
+              with zipfile.ZipFile(z) as f:
+                  names = f.namelist()
+                  marker = next((n for n in names if n.endswith("scanner/__main__.py")), None)
+                  if marker is None:
+                      continue
+                  prefix = marker[: -len("scanner/__main__.py")]
+                  for name in names:
+                      rel = name[len(prefix):]
+                      if not name.startswith(prefix) or not rel or rel.endswith("/") or ".." in rel.split("/"):
+                          continue
+                      if rel.startswith(".github/") or (rel == "config.yaml" and os.path.exists(rel)):
+                          continue          # workflows stay as you pasted them; your own settings file always wins
+                      os.makedirs(os.path.dirname(rel) or ".", exist_ok=True)
+                      with open(rel, "wb") as out:
+                          out.write(f.read(name))
+              print("Unpacked", z)
+          PY
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install tools
+        run: pip install -r requirements.txt
+
+      - name: Restore the saved login and alert memory
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            state
+            universe_cache
+          key: ema-state-${{ github.run_id }}
+          restore-keys: |
+            ema-state-
+
+      - name: Fyers login
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FYERS_APP_ID: ${{ secrets.FYERS_APP_ID }}
+          FYERS_SECRET_ID: ${{ secrets.FYERS_SECRET_ID }}
+          FYERS_PIN: ${{ secrets.FYERS_PIN }}
+          FYERS_REDIRECT_URI: ${{ secrets.FYERS_REDIRECT_URI }}
+          FYERS_PLAN: ${{ secrets.FYERS_PLAN }}
+          FYERS_LOGIN_URL: ${{ inputs.login_address }}
+        run: python -m scanner fyers-login
+
+      - name: Save the login and alert memory
+        if: ${{ always() }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            state
+            universe_cache
+          key: ema-state-${{ github.run_id }}-${{ github.run_attempt }}
